@@ -1,0 +1,2 @@
+- [Castle APK patching conclusions](castle-apk-patch-conclusions.md) — 10-min stream limit is server-enforced; 16 patches achieve max client-side result (no dialog/lock/timer/trailer).
+- [Flutter APK unlock via SharedPreferences](flutter-sharedprefs-unlock.md) — Flutter lock state lives in SharedPreferences (not smali); inject unlock data in MainActivity.onCreate before super() call.

@@ -1,0 +1,85 @@
+[2026-06-28 01:11:09.394 Uid(value=10274):9484:9484 E/AndroidRuntime]
+FATAL EXCEPTION: main
+Process: com.enhancerworx.biologydiagrams, PID: 9484
+java.lang.LinkageError: Method void com.enhancerworx.biologydiagrams.MainActivity.onCreate(android.os.Bundle) overrides final method in class LS1/d; (declaration of 'com.enhancerworx.biologydiagrams.MainActivity' appears in /data/app/~~BPxErS9LEg9Bb0H_jMWQgg==/com.enhancerworx.biologydiagrams-Xvs3IpRPommlsKdMb8B7jA==/base.apk)
+	at java.lang.VMClassLoader.findLoadedClass(Native Method)
+	at java.lang.ClassLoader.findLoadedClass(ClassLoader.java:1283)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:628)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:580)
+	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+	at android.app.Instrumentation.newActivity(Instrumentation.java:1456)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4305)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4636)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:112)
+	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:186)
+	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:112)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:84)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2878)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loopOnce(Looper.java:249)
+	at android.os.Looper.loop(Looper.java:337)
+	at android.app.ActivityThread.main(ActivityThread.java:9469)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:636)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+
+
+[2026-06-28 01:11:15.578 Uid(value=10274):9820:9845 E/QT]
+[QT]file does not exist
+
+
+[2026-06-28 01:11:15.578 Uid(value=10274):9820:9820 E/AndroidRuntime]
+FATAL EXCEPTION: main
+Process: com.enhancerworx.biologydiagrams, PID: 9820
+java.lang.LinkageError: Method void com.enhancerworx.biologydiagrams.MainActivity.onCreate(android.os.Bundle) overrides final method in class LS1/d; (declaration of 'com.enhancerworx.biologydiagrams.MainActivity' appears in /data/app/~~BPxErS9LEg9Bb0H_jMWQgg==/com.enhancerworx.biologydiagrams-Xvs3IpRPommlsKdMb8B7jA==/base.apk)
+	at java.lang.VMClassLoader.findLoadedClass(Native Method)
+	at java.lang.ClassLoader.findLoadedClass(ClassLoader.java:1283)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:628)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:580)
+	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+	at android.app.Instrumentation.newActivity(Instrumentation.java:1456)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4305)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4636)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:112)
+	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:186)
+	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:112)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:84)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2878)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loopOnce(Looper.java:249)
+	at android.os.Looper.loop(Looper.java:337)
+	at android.app.ActivityThread.main(ActivityThread.java:9469)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:636)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+
+
+[2026-06-28 01:16:38.590 Uid(value=10274):12887:12914 E/QT]
+[QT]file does not exist
+
+
+[2026-06-28 01:16:38.592 Uid(value=10274):12887:12887 E/AndroidRuntime]
+FATAL EXCEPTION: main
+Process: com.enhancerworx.biologydiagrams, PID: 12887
+java.lang.LinkageError: Method void com.enhancerworx.biologydiagrams.MainActivity.onCreate(android.os.Bundle) overrides final method in class LS1/d; (declaration of 'com.enhancerworx.biologydiagrams.MainActivity' appears in /data/app/~~BPxErS9LEg9Bb0H_jMWQgg==/com.enhancerworx.biologydiagrams-Xvs3IpRPommlsKdMb8B7jA==/base.apk)
+	at java.lang.VMClassLoader.findLoadedClass(Native Method)
+	at java.lang.ClassLoader.findLoadedClass(ClassLoader.java:1283)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:628)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:580)
+	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+	at android.app.Instrumentation.newActivity(Instrumentation.java:1456)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4305)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4636)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:112)
+	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:186)
+	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:112)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:84)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2878)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loopOnce(Looper.java:249)
+	at android.os.Looper.loop(Looper.java:337)
+	at android.app.ActivityThread.main(ActivityThread.java:9469)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:636)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+

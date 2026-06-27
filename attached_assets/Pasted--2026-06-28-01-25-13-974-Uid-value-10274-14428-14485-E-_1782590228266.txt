@@ -1,0 +1,189 @@
+[2026-06-28 01:25:13.974 Uid(value=10274):14428:14485 E/biologydiagrams]
+checkIfsupportxIntfps do not binder to joyose
+
+
+[2026-06-28 01:25:13.974 Uid(value=10274):14428:14485 E/mali_gralloc]
+ERROR: Format allocation info not found for format: 38
+
+
+[2026-06-28 01:25:13.974 Uid(value=10274):14428:14485 E/mali_gralloc]
+ERROR: Format allocation info not found for format: 0
+
+
+[2026-06-28 01:25:13.974 Uid(value=10274):14428:14485 E/biologydiagrams]
+Invalid base format! req_base_format = 0x0, req_format = 0x38
+
+
+[2026-06-28 01:25:13.974 Uid(value=10274):14428:14485 E/mali_gralloc]
+ERROR: Unrecognized and/or unsupported format 0x38 and usage 0xb00
+
+
+[2026-06-28 01:25:13.974 Uid(value=10274):14428:14485 E/mali_gralloc]
+ERROR: Format allocation info not found for format: 3b
+
+
+[2026-06-28 01:25:13.974 Uid(value=10274):14428:14485 E/mali_gralloc]
+ERROR: Format allocation info not found for format: 0
+
+
+[2026-06-28 01:25:13.974 Uid(value=10274):14428:14485 E/biologydiagrams]
+Invalid base format! req_base_format = 0x0, req_format = 0x3b
+
+
+[2026-06-28 01:25:13.974 Uid(value=10274):14428:14485 E/mali_gralloc]
+ERROR: Unrecognized and/or unsupported format 0x3b and usage 0xb00
+
+
+[2026-06-28 01:25:13.974 Uid(value=10274):14428:14485 E/mali_gralloc]
+ERROR: Format allocation info not found for format: 38
+
+
+[2026-06-28 01:25:13.974 Uid(value=10274):14428:14485 E/mali_gralloc]
+ERROR: Format allocation info not found for format: 0
+
+
+[2026-06-28 01:25:13.974 Uid(value=10274):14428:14485 E/biologydiagrams]
+Invalid base format! req_base_format = 0x0, req_format = 0x38
+
+
+[2026-06-28 01:25:13.974 Uid(value=10274):14428:14485 E/mali_gralloc]
+ERROR: Unrecognized and/or unsupported format 0x38 and usage 0xb00
+
+
+[2026-06-28 01:25:13.974 Uid(value=10274):14428:14485 E/mali_gralloc]
+ERROR: Format allocation info not found for format: 3b
+
+
+[2026-06-28 01:25:13.974 Uid(value=10274):14428:14485 E/mali_gralloc]
+ERROR: Format allocation info not found for format: 0
+
+
+[2026-06-28 01:25:13.974 Uid(value=10274):14428:14485 E/biologydiagrams]
+Invalid base format! req_base_format = 0x0, req_format = 0x3b
+
+
+[2026-06-28 01:25:13.974 Uid(value=10274):14428:14485 E/mali_gralloc]
+ERROR: Unrecognized and/or unsupported format 0x3b and usage 0xb00
+
+
+[2026-06-28 01:25:15.581 Uid(value=10274):14428:14428 E/flutter]
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: Unable to load asset: "assets/sounds/click.mp3".
+#0      PlatformAssetBundle.load.<anonymous closure> (package:flutter/src/services/asset_bundle.dart:332)
+<asynchronous suspension>
+#1      AudioCache.fetchToMemory (package:audioplayers/src/audio_cache.dart:89)
+<asynchronous suspension>
+#2      AudioCache.load (package:audioplayers/src/audio_cache.dart:120)
+<asynchronous suspension>
+#3      AudioCache.loadPath (package:audioplayers/src/audio_cache.dart:129)
+<asynchronous suspension>
+#4      AudioPlayer.setSourceAsset (package:audioplayers/src/audioplayer.dart:360)
+<asynchronous suspension>
+#5      AudioPlayer.setSource (package:audioplayers/src/audioplayer.dart:300)
+<asynchronous suspension>
+#6      AudioPlayer.play (package:audioplayers/src/audioplayer.dart:195)
+<asynchronous suspension>
+
+
+[2026-06-28 01:25:15.599 Uid(value=10274):14428:14428 E/flutter]
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: FormatException: Unexpected character (at character 1)
+dna!chromosome!animalcell!plantcell!nucleus!neuron!excretory!typeTeeth!huma...
+^
+
+
+[2026-06-28 01:25:17.052 Uid(value=10274):14428:14428 E/flutter]
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: Unable to load asset: "assets/sounds/click.mp3".
+#0      PlatformAssetBundle.load.<anonymous closure> (package:flutter/src/services/asset_bundle.dart:332)
+<asynchronous suspension>
+#1      AudioCache.fetchToMemory (package:audioplayers/src/audio_cache.dart:89)
+<asynchronous suspension>
+#2      AudioCache.load (package:audioplayers/src/audio_cache.dart:120)
+<asynchronous suspension>
+#3      AudioCache.loadPath (package:audioplayers/src/audio_cache.dart:129)
+<asynchronous suspension>
+#4      AudioPlayer.setSourceAsset (package:audioplayers/src/audioplayer.dart:360)
+<asynchronous suspension>
+#5      AudioPlayer.setSource (package:audioplayers/src/audioplayer.dart:300)
+<asynchronous suspension>
+#6      AudioPlayer.play (package:audioplayers/src/audioplayer.dart:195)
+<asynchronous suspension>
+
+
+[2026-06-28 01:25:17.074 Uid(value=10274):14428:14428 E/flutter]
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: FormatException: Unexpected character (at character 1)
+dna!chromosome!animalcell!plantcell!nucleus!neuron!excretory!typeTeeth!huma...
+^
+
+
+[2026-06-28 01:25:18.554 Uid(value=10274):14428:14485 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#3](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 01:25:18.574 Uid(value=10274):14428:14485 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#3](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 01:25:18.591 Uid(value=10274):14428:14485 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#3](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 01:25:19.041 Uid(value=10274):14428:14428 E/flutter]
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: Unable to load asset: "assets/sounds/click.mp3".
+#0      PlatformAssetBundle.load.<anonymous closure> (package:flutter/src/services/asset_bundle.dart:332)
+<asynchronous suspension>
+#1      AudioCache.fetchToMemory (package:audioplayers/src/audio_cache.dart:89)
+<asynchronous suspension>
+#2      AudioCache.load (package:audioplayers/src/audio_cache.dart:120)
+<asynchronous suspension>
+#3      AudioCache.loadPath (package:audioplayers/src/audio_cache.dart:129)
+<asynchronous suspension>
+#4      AudioPlayer.setSourceAsset (package:audioplayers/src/audioplayer.dart:360)
+<asynchronous suspension>
+#5      AudioPlayer.setSource (package:audioplayers/src/audioplayer.dart:300)
+<asynchronous suspension>
+#6      AudioPlayer.play (package:audioplayers/src/audioplayer.dart:195)
+<asynchronous suspension>
+
+
+[2026-06-28 01:25:19.059 Uid(value=10274):14428:14428 E/flutter]
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: FormatException: Unexpected character (at character 1)
+dna!chromosome!animalcell!plantcell!nucleus!neuron!excretory!typeTeeth!huma...
+^
+
+
+[2026-06-28 01:25:19.059 Uid(value=10274):14428:14428 E/flutter]
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: FormatException: Unexpected character (at character 1)
+dna!chromosome!animalcell!plantcell!nucleus!neuron!excretory!typeTeeth!huma...
+^
+
+
+[2026-06-28 01:25:21.046 Uid(value=10274):14428:14485 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#3](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 01:25:21.067 Uid(value=10274):14428:14485 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#3](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 01:25:21.081 Uid(value=10274):14428:14485 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#3](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 01:25:21.097 Uid(value=10274):14428:14485 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#3](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 01:25:21.116 Uid(value=10274):14428:14485 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#3](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 01:25:21.131 Uid(value=10274):14428:14485 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#3](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 01:25:21.147 Uid(value=10274):14428:14485 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#3](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 01:25:21.164 Uid(value=10274):14428:14485 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#3](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
