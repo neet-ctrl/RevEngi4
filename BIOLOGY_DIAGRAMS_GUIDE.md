@@ -164,22 +164,64 @@ On every app launch, in `App.onCreate()`:
 
 ⚠️ **NEVER write to XML SharedPreferences here** — it triggers DataStore migration which OVERWRITES our DataStore file with the wrong format. This was the bug in early patch attempts.
 
-### Patch 4 — B1/f.smali `q()` method (BELT + SUSPENDERS — old sync API fallback):
+### Patch 4 — B1/f.smali `q()` method (old sync API fallback — secondary):
 Method `q(Ljava/util/List;Ll2/g;)Ljava/util/Map;` in `decompiled_bio/smali/B1/f.smali`
-at the `:cond_2` label (before `return-object v0`).
+at the `:cond_2` label (before `return-object v0`). Same injection as Patch 5 below.
 
-Injected BEFORE the return:
+### ✅ Patch 5 — l2/I.smali (THE DEFINITIVE FIX — DataStore async implementation):
+
+**This is the class that actually matters.** Two implementations of `l2/f` exist:
+- `B1/f.smali` → old XML sync API (Dart does NOT use this for `unlockedSets`)
+- `l2/I.smali` → **new DataStore async API (what Dart actually calls)**
+
+Verified by: `l2/I.smali` has `.implements Ll2/f;`. The `SharedPreferencesAsyncApi` pigeon channel (`l2/e.smali`) calls `l2/d.smali` which dispatches to `l2/f` implementations. `l2/I.smali` IS the DataStore implementation.
+
+#### 5a — `c(String, g) → String` method (line 755 in l2/I.smali):
+The SINGLE-KEY getString. Intercept at the top before DataStore is even called:
 ```smali
-const-string v1, "unlockedSets"
-const-string v2, "[\"excretory\", \"excretoryDetails\", ...]"   # full 248-item JSON array
-invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(...)
-const-string v1, "flutter.unlockedSets"
-invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(...)
-```
-This injects unlock data into the old sync SharedPreferences `getAll()` response.
-Covers the case where Dart uses the OLD sync API for some calls.
+.method public final c(Ljava/lang/String;Ll2/g;)Ljava/lang/String;
+    .locals 2
 
-**Total patches: AndroidManifest (split removal) + lib/.so copy + App.smali (DataStore write) + B1/f.smali q() (channel injection)**
+    # === INJECTED: intercept unlockedSets key ===
+    const-string v0, "unlockedSets"
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result v0
+    if-eqz v0, :skip_unlock_inject_c
+    const-string p1, "[\"excretory\", \"excretoryDetails\", ...]"  # full 248-item JSON
+    return-object p1
+    :skip_unlock_inject_c
+    # === END INJECTED ===
+
+    .line 1
+    new-instance p2, LA2/q;
+    ...
+```
+Effect: Any call to `getString("unlockedSets")` → immediately returns the JSON array without touching DataStore.
+
+Since `b()` in l2/I.smali calls `c()` first, this also fixes the typed `l2/M` return path.
+
+#### 5b — `q(List, g) → Map` method (line 1463 in l2/I.smali):
+The GETALL. After DataStore returns its Map, replace `return-object p1` with:
+```smali
+    check-cast p1, Ljava/util/Map;
+
+    # === INJECTED: make mutable copy and inject our keys ===
+    new-instance p0, Ljava/util/HashMap;
+    invoke-direct {p0}, Ljava/util/HashMap;-><init>()V
+    invoke-virtual {p0, p1}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
+    const-string p1, "unlockedSets"
+    const-string v0, "[\"excretory\", ...]"  # full 248-item JSON
+    invoke-virtual {p0, p1, v0}, Ljava/util/HashMap;->put(...)
+    const-string p1, "flutter.unlockedSets"
+    invoke-virtual {p0, p1, v0}, Ljava/util/HashMap;->put(...)
+    return-object p0
+    # === END INJECTED ===
+```
+⚠️ DataStore Map may be immutable — MUST create new HashMap with `putAll` before calling `put`.
+
+**Values in the Map are raw Java Strings** (confirmed from error log: Dart received `excretory!...` as a plain String and called `json.decode` on it).
+
+**Total patches: AndroidManifest + lib/.so copy + App.smali (DataStore file) + B1/f.smali q() + l2/I.smali c() + l2/I.smali q()**
 
 ---
 

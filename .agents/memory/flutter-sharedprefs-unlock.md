@@ -66,18 +66,52 @@ prefs_map = encode_len_field(1, map_entry)
    - Delete `shared_prefs/FlutterSharedPreferences.xml` (CRITICAL — prevents migration overwrite)
 3. Register: `android:name="com.enhancerworx.biologydiagrams.App"` in manifest
 
-## Belt + suspenders: also patch B1/f.smali q() method (old sync API fallback)
-Method `q(Ljava/util/List;Ll2/g;)Ljava/util/Map;` handles `getAll()` for old sync API.
-At `:cond_2` label, before `return-object v0`:
+## ✅ THE DEFINITIVE FIX: Patch l2/I.smali (DataStore async implementation)
+
+Two classes implement `l2/f` interface:
+- `B1/f.smali` → OLD sync XML API — Dart does NOT use this for unlockedSets
+- `l2/I.smali` → **NEW async DataStore API — what Dart ACTUALLY calls**
+
+`l2/e.smali` = pigeon channel handler for `SharedPreferencesAsyncApi`. It calls `l2/d.smali` dispatcher → calls `l2/f` implementations. `l2/I.smali` IS the DataStore implementation.
+
+### Patch l2/I.smali `c(String, g) → String` (line 755):
+Inject at TOP of c() — before DataStore is called. Key check: equals("unlockedSets"):
+```smali
+    const-string v0, "unlockedSets"
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result v0
+    if-eqz v0, :skip_unlock_inject_c
+    const-string p1, "["excretory", ...]"   # full JSON, 4930 escaped chars
+    return-object p1
+    :skip_unlock_inject_c
+```
+`.locals 2` already there. Since `b()` calls `c()`, this also fixes typed l2/M returns.
+
+### Patch l2/I.smali `q(List, g) → Map` (line 1463):
+After `check-cast p1, Ljava/util/Map;`, replace `return-object p1`:
+```smali
+    new-instance p0, Ljava/util/HashMap;
+    invoke-direct {p0}, Ljava/util/HashMap;-><init>()V
+    invoke-virtual {p0, p1}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
+    const-string p1, "unlockedSets"
+    const-string v0, "["excretory", ...]"
+    invoke-virtual {p0, p1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    const-string p1, "flutter.unlockedSets"
+    invoke-virtual {p0, p1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    return-object p0
+```
+MUST create new HashMap (DataStore Map is immutable). `.locals 1` + reuse freed param regs p0/p1/p2.
+
+### Also patch B1/f.smali q() (old sync API belt+suspenders):
+At `:cond_2` before `return-object v0` (before `.end method` + `method public r(`):
 ```smali
 const-string v1, "unlockedSets"
-const-string v2, "[\"excretory\", ...]"  # full JSON array, escaped
+const-string v2, "["excretory", ...]"
 invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 const-string v1, "flutter.unlockedSets"
 invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 ```
-`.locals 5` already exists — v1, v2 are available after loop ends.
-
+`.locals 5` — v1, v2 free after loop ends at :cond_2.
 ## Other notes
 - tRNA and Chromosome are ALWAYS free from developer — not proof patch worked. Test with `animalcell`, `plantcell`, `nucleus`.
 - Use `commit()` not `apply()` — synchronous, no race with Flutter init.
