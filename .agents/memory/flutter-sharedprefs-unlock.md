@@ -80,13 +80,50 @@ Flutter apps with audioplayers may crash with a blank white screen if a sound fi
 Logcat: `Unable to load asset: "assets/sounds/click.mp3"`
 Fix: copy any existing mp3 (e.g. button.mp3) as the missing file name before rebuilding.
 
-## Biology Diagrams app specifics (2026-06-28, confirmed working)
+## CRITICAL: Newer Flutter apps use DataStore, NOT SharedPreferences XML
+Apps using `shared_preferences_android` v2.3.0+ store data in a **protobuf file** at:
+`context.getFilesDir()/datastore/FlutterSharedPreferences.preferences_pb`
+Detection: grep smali for `".preferences_pb"` and `"datastore/"` (found in `P/b.smali` in this app).
+Writing to SharedPreferences XML has ZERO effect — the app reads the protobuf file only.
+The DataStore key has NO `flutter.` prefix (that prefix was old XML-only).
+
+### DataStore protobuf format (hand-encode with Python):
+```python
+def encode_varint(value):
+    buf = []
+    while True:
+        towrite = value & 0x7f; value >>= 7
+        buf.append(towrite | 0x80 if value else towrite)
+        if not value: break
+    return bytes(buf)
+def encode_len_field(field_num, data):
+    if isinstance(data, str): data = data.encode('utf-8')
+    return encode_varint((field_num << 3) | 2) + encode_varint(len(data)) + data
+
+# PreferenceValue { string_value (field 4) = json_val }
+pref_value = encode_len_field(4, json_val)
+# MapEntry { key (field 1) = "unlockedSets", value (field 2) = pref_value }
+map_entry = encode_len_field(1, 'unlockedSets') + encode_len_field(2, pref_value)
+# PreferencesMap { preferences (field 1) = map_entry }
+prefs_map = encode_len_field(1, map_entry)
+```
+
+### Injection method for DataStore apps (App.smali):
+- Bundle the protobuf file as `assets/unlock.pb` in the APK
+- App.onCreate(): open asset, create `getFilesDir()/datastore/` dir, write file
+- Overwrites file on EVERY launch → permanently unlocked
+- No need to write to SharedPreferences XML at all
+
+## Biology Diagrams app specifics (2026-06-28)
 - App: `com.enhancerworx.biologydiagrams`
-- Prefs file: `FlutterSharedPreferences`
-- Key: `flutter.unlockedSets`
-- **Format: JSON array** — `["excretory","excretoryDetails",...]` (NOT the VGhpcyBpc... prefix format)
-- SuperClass in MainActivity: `LS1/d;` (obfuscated FlutterActivity subclass — onCreate is final, never override here)
-- Unlock injected in: `App.smali` (custom Application class), registered in AndroidManifest as `android:name="com.enhancerworx.biologydiagrams.App"`
+- Storage: **DataStore** (`P/b.smali` has `.preferences_pb` + `datastore/`)
+- DataStore path: `getFilesDir()/datastore/FlutterSharedPreferences.preferences_pb`
+- DataStore key: `"unlockedSets"` (no `flutter.` prefix)
+- Value type: `string_value` = JSON array `["excretory","excretoryDetails",...]`
+- Protobuf asset: `assets/unlock.pb` (bundled in APK, ~4KB)
+- App.smali copies `unlock.pb` → DataStore path on every launch
+- SuperClass in MainActivity: `LS1/d;` (FlutterActivity — onCreate is final, never override)
+- App class registered: `android:name="com.enhancerworx.biologydiagrams.App"` in manifest
 - Missing asset fixed: `assets/sounds/click.mp3` (copied from button.mp3)
-- All 238 IDs: 46 base topics × 5 variants each + 8 category/menu IDs
+- All 238 IDs: 46 base topics × 5 variants + 8 category/menu IDs (includes tRNA)
 - Output: `output/biologydiagrams_final.apk` (17 MB, signed v2+v3)
