@@ -1,0 +1,1909 @@
+[2026-06-28 16:01:42.892 Uid(value=10368):10832:10876 E/QT]
+[QT]file does not exist
+
+
+[2026-06-28 16:01:43.576 Uid(value=10368):10832:10902 E/biologydiagrams]
+checkIfsupportxIntfps do not binder to joyose
+
+
+[2026-06-28 16:01:43.599 Uid(value=10368):10832:10902 E/mali_gralloc]
+ERROR: Format allocation info not found for format: 38
+
+
+[2026-06-28 16:01:43.599 Uid(value=10368):10832:10902 E/mali_gralloc]
+ERROR: Format allocation info not found for format: 0
+
+
+[2026-06-28 16:01:43.599 Uid(value=10368):10832:10902 E/biologydiagrams]
+Invalid base format! req_base_format = 0x0, req_format = 0x38
+
+
+[2026-06-28 16:01:43.599 Uid(value=10368):10832:10902 E/mali_gralloc]
+ERROR: Unrecognized and/or unsupported format 0x38 and usage 0xb00
+
+
+[2026-06-28 16:01:43.599 Uid(value=10368):10832:10902 E/mali_gralloc]
+ERROR: Format allocation info not found for format: 3b
+
+
+[2026-06-28 16:01:43.599 Uid(value=10368):10832:10902 E/mali_gralloc]
+ERROR: Format allocation info not found for format: 0
+
+
+[2026-06-28 16:01:43.599 Uid(value=10368):10832:10902 E/biologydiagrams]
+Invalid base format! req_base_format = 0x0, req_format = 0x3b
+
+
+[2026-06-28 16:01:43.599 Uid(value=10368):10832:10902 E/mali_gralloc]
+ERROR: Unrecognized and/or unsupported format 0x3b and usage 0xb00
+
+
+[2026-06-28 16:01:43.599 Uid(value=10368):10832:10902 E/mali_gralloc]
+ERROR: Format allocation info not found for format: 38
+
+
+[2026-06-28 16:01:43.599 Uid(value=10368):10832:10902 E/mali_gralloc]
+ERROR: Format allocation info not found for format: 0
+
+
+[2026-06-28 16:01:43.599 Uid(value=10368):10832:10902 E/biologydiagrams]
+Invalid base format! req_base_format = 0x0, req_format = 0x38
+
+
+[2026-06-28 16:01:43.599 Uid(value=10368):10832:10902 E/mali_gralloc]
+ERROR: Unrecognized and/or unsupported format 0x38 and usage 0xb00
+
+
+[2026-06-28 16:01:43.599 Uid(value=10368):10832:10902 E/mali_gralloc]
+ERROR: Format allocation info not found for format: 3b
+
+
+[2026-06-28 16:01:43.599 Uid(value=10368):10832:10902 E/mali_gralloc]
+ERROR: Format allocation info not found for format: 0
+
+
+[2026-06-28 16:01:43.599 Uid(value=10368):10832:10902 E/biologydiagrams]
+Invalid base format! req_base_format = 0x0, req_format = 0x3b
+
+
+[2026-06-28 16:01:43.599 Uid(value=10368):10832:10902 E/mali_gralloc]
+ERROR: Unrecognized and/or unsupported format 0x3b and usage 0xb00
+
+
+[2026-06-28 16:01:54.744 Uid(value=10368):10832:10832 E/flutter]
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: FormatException: Unexpected character (at character 1)
+excretory!excretoryDetails!excretoryBackDetails!excretoryTop!excretoryCircl...
+^
+
+
+[2026-06-28 16:01:54.745 Uid(value=10368):10832:10832 E/flutter]
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: FormatException: Unexpected character (at character 1)
+excretory!excretoryDetails!excretoryBackDetails!excretoryTop!excretoryCircl...
+^
+
+
+[2026-06-28 16:01:54.788 Uid(value=10368):10832:10902 E/LB]
+fail to open file: No such file or directory
+
+
+[2026-06-28 16:01:54.788 Uid(value=10368):10832:10902 E/LB]
+fail to open node: No such file or directory
+
+
+[2026-06-28 16:01:54.788 Uid(value=10368):10832:10902 E/LB]
+fail to open node: No such file or directory
+
+
+[2026-06-28 16:01:56.249 Uid(value=10368):10832:10832 E/flutter]
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: FormatException: Unexpected character (at character 1)
+excretory!excretoryDetails!excretoryBackDetails!excretoryTop!excretoryCircl...
+^
+
+
+[2026-06-28 16:01:56.496 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.533 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.551 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.567 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.584 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.600 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.618 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.636 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.652 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.668 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.685 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.701 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.718 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.736 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.752 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.768 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.785 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.801 Uid(value=10368):10832:10902 E/biologydiagrams]
+DynamicFPS DF open fail: No such file or directory
+
+
+[2026-06-28 16:01:57.802 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.818 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.835 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.871 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.886 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.902 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.918 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.953 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.969 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:57.986 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.004 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.021 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.488 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.520 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.538 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.554 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.571 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.604 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.621 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.637 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.655 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.671 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.688 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.720 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.740 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.756 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.773 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.789 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.805 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.822 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.840 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.856 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.872 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.891 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.907 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.923 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.940 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.957 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.973 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:58.990 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.021 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.040 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.073 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.091 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.107 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.124 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.143 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.157 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.173 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.189 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.206 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.223 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.241 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.257 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.273 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.291 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.307 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.324 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.341 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.357 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.373 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.391 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.407 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.424 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.441 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.458 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.475 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.491 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.508 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.526 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.542 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.558 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.575 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.592 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.609 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.625 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.642 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.659 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.676 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.694 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.711 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.726 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.742 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.776 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.791 Uid(value=10368):10832:10902 E/biologydiagrams]
+FrameInsert open fail: No such file or directory
+
+
+[2026-06-28 16:01:59.792 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.808 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.842 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.859 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.876 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.893 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.910 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.926 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.961 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.976 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:01:59.994 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.042 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.059 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.076 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.110 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.127 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.144 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.161 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.176 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.194 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.211 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.227 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.244 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.260 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.277 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.294 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.310 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.327 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.344 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.361 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.394 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.410 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.443 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.493 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.544 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.578 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.595 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.628 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.712 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.795 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.829 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:00.913 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:01.014 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:01.046 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.095 Uid(value=10368):10832:12472 E/FilePhenotypeFlags]
+Config package com.google.android.gms.clearcut_client#com.enhancerworx.biologydiagrams cannot use FILE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+
+
+[2026-06-28 16:02:03.152 Uid(value=10368):10832:12472 E/FilePhenotypeFlags]
+Config package com.google.android.gms.clearcut_client#com.enhancerworx.biologydiagrams cannot use FILE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+
+
+[2026-06-28 16:02:03.153 Uid(value=10368):10832:12472 E/FilePhenotypeFlags]
+Config package com.google.android.gms.clearcut_client#com.enhancerworx.biologydiagrams cannot use FILE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+
+
+[2026-06-28 16:02:03.349 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.365 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.382 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.399 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.416 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.432 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.449 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.466 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.515 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.566 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.583 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.617 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.633 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.651 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.667 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.685 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.701 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.719 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.735 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.752 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.767 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.784 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.802 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.818 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.835 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.851 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.868 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.886 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.952 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.969 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:03.986 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.003 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.019 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.035 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.055 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.069 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.088 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.119 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.138 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.154 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.170 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.188 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.219 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.236 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.253 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.270 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.287 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.303 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.320 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.337 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.353 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.372 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.387 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.405 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.420 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.438 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.489 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.506 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.520 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.536 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.569 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.586 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.602 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.622 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.640 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.654 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.671 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.704 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.721 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.738 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.753 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.773 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.790 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.805 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.820 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.840 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.856 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.871 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.905 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.923 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.939 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.957 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.971 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:04.990 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.008 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.055 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.074 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.089 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.106 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.123 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.139 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.157 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.173 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.190 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.208 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.224 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.241 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.257 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.274 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.290 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.308 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.324 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.341 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.358 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.373 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.406 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.423 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.440 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.456 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.474 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.490 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.507 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.523 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.540 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.557 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.574 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.590 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.607 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.624 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.641 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.675 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.707 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.725 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.741 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.758 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.776 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.795 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.811 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.826 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.843 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.891 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.910 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.926 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.943 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.959 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.976 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:05.992 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.010 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.026 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.044 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.060 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.077 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.092 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.111 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.127 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.144 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.160 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.177 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.193 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.210 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.227 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.246 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.262 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.277 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.294 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.312 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.328 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.377 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.393 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.410 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.426 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.444 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.461 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.479 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.495 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.511 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.528 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.545 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.562 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.578 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.594 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.612 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.629 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.647 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.663 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.678 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.694 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.727 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:06.761 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:07.746 Uid(value=10368):10832:10832 E/flutter]
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: FormatException: Unexpected character (at character 1)
+excretory!excretoryDetails!excretoryBackDetails!excretoryTop!excretoryCircl...
+^
+
+
+[2026-06-28 16:02:07.981 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:07.997 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.015 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.098 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.166 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.183 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.200 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.216 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.232 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.351 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.368 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.384 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.400 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.417 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.434 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.468 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.484 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.517 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.534 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.568 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.602 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.618 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.635 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.669 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.702 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.736 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.752 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.785 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.802 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.819 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.836 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.852 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.886 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.952 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:08.968 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:09.054 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:09.069 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.399 Uid(value=10368):10832:10832 E/flutter]
+[ERROR:flutter/runtime/dart_vm_initializer.cc(40)] Unhandled Exception: FormatException: Unexpected character (at character 1)
+excretory!excretoryDetails!excretoryBackDetails!excretoryTop!excretoryCircl...
+^
+
+
+[2026-06-28 16:02:11.427 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.461 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.512 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.545 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.563 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.579 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.595 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.629 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.646 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.663 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.679 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.713 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.730 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.763 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.780 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.797 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.813 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.831 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.847 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.880 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.897 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.914 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.931 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.948 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.964 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.981 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:11.997 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.015 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.031 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.048 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.064 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.081 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.097 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.115 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.132 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.149 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.165 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.182 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.199 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.215 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.232 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.249 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.265 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.282 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.299 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.315 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.332 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.349 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.365 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.383 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.400 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.416 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.432 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.449 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.466 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.483 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.500 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.518 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.533 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.550 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.567 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.583 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.600 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.617 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.633 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.650 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.666 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:12.684 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:15.501 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:16.271 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:16.538 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:16.554 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:16.568 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:18.390 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:18.424 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:18.543 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:18.626 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:18.728 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:20.201 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:20.301 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:20.317 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:20.348 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
+
+[2026-06-28 16:02:20.365 Uid(value=10368):10832:10902 E/BLASTBufferQueue]
+[SurfaceView[com.enhancerworx.biologydiagrams/com.enhancerworx.biologydiagrams.MainActivity]#1](f:1,a:6) acquireNextBufferLocked: Can't acquire next buffer. Already acquired max frames 6 max:4 + 2
+
