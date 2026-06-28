@@ -72,36 +72,58 @@
 ### App Architecture:
 - **Flutter app** (Dart + ARM64 native code in `libapp.so`)
 - All business logic is compiled Dart code — NOT editable smali
-- Lock state is stored in Android SharedPreferences (standard Flutter plugin)
+- Lock state is stored via **DataStore** (new async SharedPreferences plugin)
 
-### Lock mechanism (two types):
+### ⚠️ CRITICAL: tRNA and Chromosome are ALWAYS FREE from the developer
+- They were NEVER locked. If you see them unlocked, that is NOT proof your patch worked.
+- Only `animalcell`, `plantcell`, `nucleus`, etc. are actually locked.
 
-#### Type 1 — Topic Locks ("Watch a short ad to unlock this topic and continue learning!")
+### Lock mechanism:
+
+#### Topic Locks ("Watch a short ad to unlock this topic and continue learning!")
 - Dialog: "Unlock This Topic 🎉" with `Watch Ad` and `Cancel` buttons
 - Dart functions: `_isUnlocked@525373926`, `_isUnlocked@523178700`, `_isUnlocked@520068202`, `_isUnlocked@522053698`
 - Initialized by: `_initializeUnlockState@...` (multiple widget state classes)
-- State stored in: Android SharedPreferences, key = `flutter.unlockedSets`
+- Key: `unlockedSets` (DataStore key — NO `flutter.` prefix)
 
-#### Type 2 — Quiz Set Locks ("Watch a short ad to unlock this set permanently.")
+#### Quiz Set Locks ("Watch a short ad to unlock this set permanently.")
 - Dialog: "Unlock This Quiz Set!"
 - Dart functions: `_isSetUnlocked@528066715`
 - State loaded by: `_loadUnlockedSets@528066715`
-- State stored in: Android SharedPreferences, key = `flutter.unlockedSets` (same key)
+- Key: `unlockedSets` (same DataStore key)
 
-### SharedPreferences storage format:
-- **File name:** `FlutterSharedPreferences` (Android SharedPreferences XML file)
-- **Key:** `flutter.unlockedSets`
-- **Value format (String):** `VGhpcyBpcyB0aGUgcHJlZml4IGZvciBhIGxpc3Qu!id1!id2!id3!...`
-  - Prefix `VGhpcyBpcyB0aGUgcHJlZml4IGZvciBhIGxpc3Qu` = base64 for "This is the prefix for a list."
-  - Items separated by `!`
-  - Each item is a topic/set identifier
+### ⚠️ CRITICAL: This app uses DataStore (NEW async API) — NOT XML SharedPreferences
+Confirmed by:
+- `P/b.smali` builds path `getFilesDir()/datastore/FlutterSharedPreferences.preferences_pb`
+- `libapp.so` contains string `SharedPreferencesAsyncAndroid`
+- Error logs showed Dart calling `json.decode()` on values — new async API behavior
+
+### DataStore storage format (the ONLY format that works):
+- **File:** `files/datastore/FlutterSharedPreferences.preferences_pb` (protobuf)
+- **Key:** `unlockedSets` (NO `flutter.` prefix — new async API does NOT add prefix)
+- **Value format:** JSON string: `["excretory", "excretoryDetails", "animalcell", ...]`
+  - Dart calls `json.decode()` on the value to get the list
+  - Do NOT use the old `VGhpcyBpcyB0aGUgcHJlZml4IGZvciBhIGxpc3Qu!item1!item2` format — Dart will fail with FormatException
+- **Protobuf schema:**
+  - Outer message `PreferencesMap` field 1 = map entry
+  - Map entry: field 1 = key (String), field 2 = Value message
+  - Value message: field 5 = string_value (String)
+  - ⚠️ Field 5 for string — NOT field 4 (field 4 = long_value, WRONG)
+
+### ⚠️ CRITICAL: Writing to XML SharedPreferences BREAKS the DataStore fix
+- If you ALSO write to `FlutterSharedPreferences` XML, DataStore's migration system
+  reads that XML value and **OVERWRITES** your DataStore protobuf with the wrong
+  `!`-separated format: `excretory!excretoryDetails!...`
+- Dart then json.decodes `excretory!...` → `FormatException: Unexpected character (at character 1)`
+- App hangs with a spinner on every category tap
+- **NEVER write to XML SharedPreferences for this app**
 
 ### Why topics show "Tap to Unlock" vs "Learn/Find/Quiz":
 - The Dart widget state has `_isUnlocked` field (bool)
 - `get:locked` getter returns `!_isUnlocked`
 - If `locked == true`: shows "Tap to Unlock 🔒✨" button (red border)
 - If `locked == false`: shows three green/blue/orange buttons: Learn | Find | Quiz
-- `_initializeUnlockState()` reads `unlockedSets` from SharedPreferences and checks if current topic ID is in the list
+- `_initializeUnlockState()` reads `unlockedSets` from DataStore and checks if current topic ID is in the JSON list
 
 ---
 
@@ -123,22 +145,41 @@ Copied from `split_config.arm64_v8a.apk` into `decompiled_bio/lib/arm64-v8a/`:
 - `libflutter.so` (11 MB) — Flutter engine
 - `libdatastore_shared_counter.so` (7 KB) — DataStore library
 
-### Patch 3 — App.smali (CORE UNLOCK PATCH):
+### Patch 3 — App.smali (CORE UNLOCK PATCH — DataStore write):
 Created a **custom Application class** `com/enhancerworx/biologydiagrams/App.smali`.
 
 ⚠️ **IMPORTANT:** Do NOT put this in `MainActivity.onCreate()` — `LS1/d` (Flutter's base Activity) declares `onCreate` as `final`. Overriding it causes an immediate `LinkageError` crash on launch.
 
 The Application class `onCreate()` is NEVER final, runs before any Activity, and is the correct hook point.
 
+AndroidManifest.xml updated: `android:name="com.enhancerworx.biologydiagrams.App"`
+
 On every app launch, in `App.onCreate()`:
 1. Calls `super.onCreate()` (Application super — required)
-2. Opens `FlutterSharedPreferences` Android SharedPreferences file
-3. Writes `flutter.unlockedSets` with ALL topic/set IDs in the Flutter list format
-4. Calls `commit()` (synchronous, no race condition with Flutter init)
+2. Copies `assets/unlock.pb` → `files/datastore/FlutterSharedPreferences.preferences_pb`
+   - This is a valid protobuf with key `unlockedSets` = JSON array of all 248 topic IDs
+   - Field 5 (string_value) — NOT field 4
+3. Deletes `files/datastore/FlutterSharedPreferences.preferences_pb.tmp` (prevents DataStore recovering old state)
+4. Deletes `shared_prefs/FlutterSharedPreferences.xml` (CRITICAL — prevents DataStore migration from overwriting our proto with wrong `!`-separated format)
 
-AndroidManifest.xml was also updated: `android:name="com.enhancerworx.biologydiagrams.App"`
+⚠️ **NEVER write to XML SharedPreferences here** — it triggers DataStore migration which OVERWRITES our DataStore file with the wrong format. This was the bug in early patch attempts.
 
-**Effect:** When `_initializeUnlockState()` runs in Dart, it reads `flutter.unlockedSets` and finds ALL topics in the list → `_isUnlocked = true` for every topic → `get:locked` returns `false` → UI shows Learn/Find/Quiz buttons for all topics.
+### Patch 4 — B1/f.smali `q()` method (BELT + SUSPENDERS — old sync API fallback):
+Method `q(Ljava/util/List;Ll2/g;)Ljava/util/Map;` in `decompiled_bio/smali/B1/f.smali`
+at the `:cond_2` label (before `return-object v0`).
+
+Injected BEFORE the return:
+```smali
+const-string v1, "unlockedSets"
+const-string v2, "[\"excretory\", \"excretoryDetails\", ...]"   # full 248-item JSON array
+invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(...)
+const-string v1, "flutter.unlockedSets"
+invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(...)
+```
+This injects unlock data into the old sync SharedPreferences `getAll()` response.
+Covers the case where Dart uses the OLD sync API for some calls.
+
+**Total patches: AndroidManifest (split removal) + lib/.so copy + App.smali (DataStore write) + B1/f.smali q() (channel injection)**
 
 ---
 
