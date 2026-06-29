@@ -60,10 +60,18 @@
 - Show all topics as fully accessible without watching any ads
 
 ### Result:
-- `output/biologydiagrams_final.apk` (17 MB) — ready to install
+- **`output/bio_unlocked_v7.apk`** (17 MB) — ready to install ← **USE THIS ONE**
 - Signed with v2 + v3 (both verification schemes pass)
 - All topics unlocked and accessible — no ads, no dialogs, no lock icons
 - Works as a standalone single APK (no split APKs needed)
+
+### Version History (so you never repeat failures):
+| Version | Approach | Result |
+|---------|----------|--------|
+| v1–v4 | Write `flutter.unlockedSets` to XML SharedPreferences in `MainActivity.onCreate()` | FAIL — app uses DataStore not XML; old `VGhpcyBpcyB0aGUgcHJlZml4IGZvciBhIGxpc3Qu!` format rejected |
+| v5 | Write DataStore .pb file in `App.onCreate()` | FAIL — `LinkageError` crash (put in MainActivity which has `final onCreate`) |
+| v6 | App.smali writes .pb file + patch `B1/f.smali` q() | FAIL — `B1/f.smali` is old sync API; Dart calls `l2/I.smali` (DataStore), never `B1/f.smali` |
+| **v7** ✅ | App.smali writes .pb file + patch **`l2/I.smali`** `c()` and `q()` | **SUCCESS — intercepts at the actual DataStore bridge** |
 
 ---
 
@@ -378,43 +386,197 @@ with zipfile.ZipFile('apks/split_config.arm64_v8a.apk') as z:
 "
 ```
 
-### Step 4 — Patch MainActivity.smali
-Edit `decompiled_bio/smali/com/enhancerworx/biologydiagrams/MainActivity.smali`:
-Add `onCreate` method that writes `flutter.unlockedSets` to SharedPreferences with all topic IDs.
+### Step 4 — Smali Unlock Patches (3 files)
+⚠️ **DO NOT patch MainActivity.smali** — Flutter's base Activity (`LS1/d`) declares `onCreate` as `final`. Any override in a subclass causes `java.lang.LinkageError` crash at launch. This was the v5 failure.
 
-See `decompiled_bio/smali/com/enhancerworx/biologydiagrams/MainActivity.smali` for the exact smali code.
+⚠️ **DO NOT write to XML SharedPreferences** — DataStore migration reads the XML and overwrites your `.pb` file with wrong `!`-separated format → Dart `json.decode()` FormatException → app hangs. This was the v1–v4 failure.
 
-Key constants:
-- SharedPreferences file: `"FlutterSharedPreferences"` (MODE_PRIVATE = 0x0)
-- SharedPreferences key: `"flutter.unlockedSets"`
-- Value format: `"VGhpcyBpcyB0aGUgcHJlZml4IGZvciBhIGxpc3Qu!id1!id2!..."` (items separated by `!`)
-- Must call `apply()` before `super.onCreate()`
+### Step 4a — Create `decompiled_bio/assets/unlock.pb`
 
-### Step 5 — Rebuild APK
-```bash
-apktool b decompiled_bio -o output/biologydiagrams_unsigned.apk
+This is the DataStore protobuf file with `unlockedSets` = JSON array of all 248 topic IDs.
+Already exists at `decompiled_bio/assets/unlock.pb`. Build with Python if starting fresh:
+
+```python
+# Protobuf structure: PreferencesMap { map<string,Value> prefs = 1; }
+# Value { oneof: string_value = 5 }   ← field 5, NOT field 4
+import struct
+
+def encode_string(s):
+    b = s.encode('utf-8')
+    return bytes([2]) + encode_varint(len(b)) + b  # field 2, wire type 2
+
+def encode_varint(n):
+    out = []
+    while n > 127:
+        out.append((n & 0x7F) | 0x80)
+        n >>= 7
+    out.append(n)
+    return bytes(out)
+
+key = "unlockedSets"
+value_json = '["excretory","excretoryDetails","animalcell",...]'  # all 248 IDs
+
+value_field = bytes([0x2A]) + encode_varint(len(value_json.encode())) + value_json.encode()  # field 5 wire 2
+entry = encode_string(key) + value_field
+entry_wrapped = bytes([0x0A]) + encode_varint(len(entry)) + entry  # field 1 wire 2
+open('decompiled_bio/assets/unlock.pb', 'wb').write(entry_wrapped)
 ```
 
-### Step 6 — Sign APK
+### Step 4b — Create `decompiled_bio/smali/com/enhancerworx/biologydiagrams/App.smali`
+
+```smali
+.class public Lcom/enhancerworx/biologydiagrams/App;
+.super Landroid/app/Application;
+
+.method public constructor <init>()V
+    .locals 0
+    invoke-direct {p0}, Landroid/app/Application;-><init>()V
+    return-void
+.end method
+
+.method public onCreate()V
+    .locals 5
+    invoke-super {p0}, Landroid/app/Application;->onCreate()V
+    :try_start_0
+    invoke-virtual {p0}, Landroid/app/Application;->getFilesDir()Ljava/io/File;
+    move-result-object v0
+    const-string v1, "datastore"
+    new-instance v2, Ljava/io/File;
+    invoke-direct {v2, v0, v1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+    invoke-virtual {v2}, Ljava/io/File;->mkdirs()Z
+    const-string v1, "FlutterSharedPreferences.preferences_pb"
+    new-instance v3, Ljava/io/File;
+    invoke-direct {v3, v2, v1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+    invoke-virtual {p0}, Landroid/app/Application;->getAssets()Landroid/content/res/AssetManager;
+    move-result-object v0
+    const-string v1, "unlock.pb"
+    invoke-virtual {v0, v1}, Landroid/content/res/AssetManager;->open(Ljava/lang/String;)Ljava/io/InputStream;
+    move-result-object v0
+    new-instance v4, Ljava/io/FileOutputStream;
+    invoke-direct {v4, v3}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+    const/16 v1, 0x2000
+    new-array v1, v1, [B
+    :copy_loop
+    invoke-virtual {v0, v1}, Ljava/io/InputStream;->read([B)I
+    move-result v2
+    if-lez v2, :copy_done
+    invoke-virtual {v4, v1, v0, v2}, Ljava/io/FileOutputStream;->write([BII)V
+    # (reuse v0=0 as offset)
+    const/4 v0, 0x0
+    invoke-virtual {v4, v1, v0, v2}, Ljava/io/FileOutputStream;->write([BII)V
+    goto :copy_loop
+    :copy_done
+    invoke-virtual {v4}, Ljava/io/FileOutputStream;->close()V
+    invoke-virtual {v0}, Ljava/io/InputStream;->close()V
+    # Delete .tmp file
+    const-string v1, "FlutterSharedPreferences.preferences_pb.tmp"
+    new-instance v2, Ljava/io/File;
+    invoke-direct {v2, v3, v1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+    invoke-virtual {v2}, Ljava/io/File;->delete()Z
+    # CRITICAL: Delete XML file to block DataStore migration overwrite
+    invoke-virtual {p0}, Landroid/app/Application;->getFilesDir()Ljava/io/File;
+    move-result-object v0
+    invoke-virtual {v0}, Ljava/io/File;->getParentFile()Ljava/io/File;
+    move-result-object v0
+    const-string v1, "shared_prefs"
+    new-instance v2, Ljava/io/File;
+    invoke-direct {v2, v0, v1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+    const-string v1, "FlutterSharedPreferences.xml"
+    new-instance v3, Ljava/io/File;
+    invoke-direct {v3, v2, v1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+    invoke-virtual {v3}, Ljava/io/File;->delete()Z
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_all
+    :catch_all
+    return-void
+.end method
+```
+
+See actual working file: `decompiled_bio/smali/com/enhancerworx/biologydiagrams/App.smali`
+
+Register the class in `decompiled_bio/AndroidManifest.xml`:
+```xml
+<application android:name="com.enhancerworx.biologydiagrams.App" ...>
+```
+
+### Step 5 — Patch `l2/I.smali` `c()` method — THE CORE PATCH
+
+File: `decompiled_bio/smali/l2/I.smali`
+Method: `c(Ljava/lang/String;Ll2/g;)Ljava/lang/String;` (~line 755)
+
+This is the DataStore async getString bridge. Dart calls this for every `SharedPreferences.getString()`.
+
+Inject at the **very top** of the method body (first thing, before any other code):
+```smali
+    const-string v0, "unlockedSets"
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result v0
+    if-eqz v0, :skip_unlock_inject_c
+    const-string p1, "[\"excretory\",\"excretoryDetails\",\"animalcell\",...ALL 248 IDs...]"
+    return-object p1
+    :skip_unlock_inject_c
+```
+
+Effect: Any call to `getString("unlockedSets")` → returns the full JSON immediately. Dart never touches DataStore.
+
+### Step 6 — Patch `l2/I.smali` `q()` method
+
+Method: `q(Ljava/util/List;Ll2/g;)Ljava/util/Map;` (~line 1463)
+
+After `check-cast p1, Ljava/util/Map;`, replace `return-object p1` with:
+```smali
+    new-instance p0, Ljava/util/HashMap;
+    invoke-direct {p0}, Ljava/util/HashMap;-><init>()V
+    invoke-virtual {p0, p1}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
+    const-string p1, "unlockedSets"
+    const-string v0, "[\"excretory\",...ALL 248 IDs...]"
+    invoke-virtual {p0, p1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    const-string p1, "flutter.unlockedSets"
+    invoke-virtual {p0, p1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    return-object p0
+```
+
+⚠️ MUST `new HashMap + putAll` first — DataStore returns an **immutable** Map. Direct `put()` crashes.
+
+### Step 7 — Patch `B1/f.smali` `q()` (belt+suspenders for old sync API)
+
+File: `decompiled_bio/smali/B1/f.smali`
+Method: `q(Ljava/util/List;Ll2/g;)Ljava/util/Map;`
+Location: `:cond_2` label, just before `return-object v0`
+
+```smali
+    const-string v1, "unlockedSets"
+    const-string v2, "[\"excretory\",...ALL 248 IDs...]"
+    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    const-string v1, "flutter.unlockedSets"
+    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+```
+
+### Step 8 — Rebuild APK
+```bash
+apktool b decompiled_bio -o output/bio_unlocked_unsigned.apk
+```
+
+### Step 9 — Sign APK
 ```bash
 apksigner sign \
   --ks signing/my-release-key.jks \
   --ks-pass pass:'Sh@090609' \
   --ks-key-alias my-key \
   --key-pass pass:'Sh@090609' \
-  --out output/biologydiagrams_final.apk \
+  --out output/bio_unlocked_v7.apk \
   --v1-signing-enabled true \
   --v2-signing-enabled true \
   --v3-signing-enabled true \
-  output/biologydiagrams_unsigned.apk
+  output/bio_unlocked_unsigned.apk
 
 # Verify
-apksigner verify --verbose output/biologydiagrams_final.apk | grep "Verifies"
+apksigner verify --verbose output/bio_unlocked_v7.apk | grep "Verifies"
 ```
 
-### Step 7 — Clean up
+### Step 10 — Clean up
 ```bash
-rm -f output/biologydiagrams_unsigned.apk
+rm -f output/bio_unlocked_unsigned.apk
 ```
 
 ---
@@ -462,14 +624,37 @@ Always use this same JKS for any future version of any of these apps — Android
 - **Cause:** `extractNativeLibs="false"` — Android skips extracting `.so` files from APK zip
 - **Fix:** Set `extractNativeLibs="true"` in the `<application>` tag
 
-### Error 4 — Topics still show "Tap to Unlock" after patch
-- **Cause:** `flutter.unlockedSets` value format must match exactly what Flutter's plugin expects
-- **Fix:** Value must start with `VGhpcyBpcyB0aGUgcHJlZml4IGZvciBhIGxpc3Qu!` (with `!` at end of prefix) and items separated by `!`
-- The older format without `!` separator (`VGhpcyBpcyB0aGUgcHJlZml4IGZvciBhIGxpc3Qu` no `!`) uses different parsing — use the `!` version
+### Error 4 — Topics still show "Tap to Unlock" (v1–v4 failures)
+- **Cause A:** App uses DataStore (new async plugin), NOT XML SharedPreferences. Writing `flutter.unlockedSets` to XML has zero effect.
+- **Cause B:** Even if XML is read by the old plugin, the old `VGhpcyBpcyB0aGUgcHJlZml4IGZvciBhIGxpc3Qu!item1!item2` format causes `FormatException` because this app's Dart calls `json.decode()` not the base64-prefix parser.
+- **Fix:** Patch `l2/I.smali` (the DataStore async bridge). See Patch 5 in Section 4.
 
-### Error 5 — Flutter app: Cannot directly patch Dart code via smali
-- **Cause:** Flutter compiles all Dart code to `libapp.so` — the smali code is just a thin Android wrapper
-- **Fix:** Patch at the Java/smali level by intercepting SharedPreferences — the Dart code reads the prefs file, so pre-populating the prefs is equivalent to bypassing the Dart lock check
+### Error 5 — App hangs with spinner on every category tap (after v3–v4 attempts)
+- **Cause:** DataStore migration: if `FlutterSharedPreferences.xml` exists, DataStore reads it on first run and OVERWRITES the `.pb` file you wrote, replacing JSON with `!`-separated format. Dart then json.decodes `excretory!animalcell!...` → `FormatException` at char 1. Category taps fire the unlock check → FormatException → Future never completes → spinner hangs.
+- **Fix:** Delete `FlutterSharedPreferences.xml` in `App.onCreate()` AFTER writing the `.pb` file. Never write to XML SharedPreferences at all.
+
+### Error 6 — `java.lang.LinkageError` crash at launch (v5 failure)
+- **Cause:** Tried to override `onCreate()` in `MainActivity`. Flutter's base Activity class (`LS1/d`) declares `onCreate` as `final`. Android rejects the class at load time.
+- **Fix:** Put the unlock code in a custom `Application` class (`App.smali`), not MainActivity. `Application.onCreate()` is never final and runs before any Activity.
+
+### Error 7 — Topics still locked after App.smali + B1/f.smali patch (v6 failure)
+- **Cause:** `B1/f.smali` implements the OLD sync XML SharedPreferences plugin (`l2/f` interface, old implementation). Dart NEVER calls this for `unlockedSets` because the plugin version in this app uses the NEW async DataStore plugin.
+- **Root cause confirmation:** Two classes implement `l2/f`: `B1/f.smali` (old) and `l2/I.smali` (new). The pigeon channel in `l2/e.smali` dispatches to `l2/d.smali` → `l2/I.smali`. Patching B1/f has zero effect.
+- **Fix:** Patch `l2/I.smali` — the class Dart actually calls.
+
+### Error 8 — How to detect which API class is active
+Run this in decompiled smali to find the DataStore implementation:
+```bash
+grep -r "implements Ll2/f" decompiled_bio/smali/
+# Output: l2/I.smali AND B1/f.smali both implement it
+# l2/I.smali = new async (PATCH THIS ONE)
+# B1/f.smali = old sync (patch as belt+suspenders but NOT sufficient alone)
+```
+And confirm which one the channel uses:
+```bash
+grep -r "l2/I" decompiled_bio/smali/l2/d.smali
+# Should show l2/I being instantiated → confirms it's the active one
+```
 
 ---
 
@@ -477,7 +662,7 @@ Always use this same JKS for any future version of any of these apps — Android
 
 ```
 workspace/
-├── apks/                            ← All new Biology Diagrams APK files
+├── apks/                            ← All Biology Diagrams APK files (original)
 │   ├── base.apk                     ← Main base APK (5.6 MB)
 │   ├── split_config.arm64_v8a.apk   ← ARM64 libs (22 MB) ← must merge!
 │   ├── split_config.xhdpi.apk       ← XHDPI res (67 KB) ← DO NOT merge
@@ -497,12 +682,21 @@ workspace/
 │   │   ├── libflutter.so            ← Flutter engine
 │   │   └── libdatastore_shared_counter.so
 │   ├── smali/com/enhancerworx/biologydiagrams/
-│   │   └── MainActivity.smali       ← PATCHED (added onCreate unlock injection)
-│   ├── assets/flutter_assets/       ← Flutter assets (images, sounds, fonts)
+│   │   ├── App.smali                ← CREATED (Application class — DataStore .pb writer)
+│   │   └── MainActivity.smali       ← NOT patched (final onCreate — DO NOT TOUCH)
+│   ├── smali/l2/
+│   │   ├── I.smali                  ← PATCHED (DataStore async bridge — THE KEY PATCH)
+│   │   ├── e.smali                  ← pigeon channel handler (reference only)
+│   │   └── d.smali                  ← dispatcher (reference only)
+│   ├── smali/B1/
+│   │   └── f.smali                  ← PATCHED (old sync API belt+suspenders)
+│   ├── assets/
+│   │   ├── unlock.pb                ← CREATED (DataStore protobuf with all 248 IDs)
+│   │   └── flutter_assets/          ← Flutter assets (images, sounds, fonts)
 │   └── res/                         ← Android resources
 │
 ├── output/
-│   └── biologydiagrams_final.apk    ← FINAL SIGNED APK (17 MB) ← install this
+│   └── bio_unlocked_v7.apk          ← FINAL SIGNED APK (17 MB) ← INSTALL THIS ✅
 │
 ├── signing/
 │   └── my-release-key.jks           ← KEEP THIS — signing keystore (never delete)
@@ -517,7 +711,7 @@ workspace/
 ## 11. ALL TOPIC/SET IDs
 
 These were extracted from `libapp.so` binary analysis (strings in rodata section).
-All are written to `flutter.unlockedSets` in the MainActivity patch.
+All 248 IDs are written to the `unlockedSets` JSON array in `assets/unlock.pb` AND in `l2/I.smali`.
 
 ### Anatomy / Human Physiology topics:
 `excretory`, `typeTeeth`, `humanEar`, `eye`, `brain`, `heart`, `respiratory`, `digestive`, `endocrine`, `skeleton`, `skull`, `spinalChord`, `ecgWaveform`, `nephron`, `female`, `maleReproductive`, `sperm`
