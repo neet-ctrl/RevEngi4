@@ -1,3 +1,4 @@
 - [Castle APK patching conclusions](castle-apk-patch-conclusions.md) — 10-min stream limit is server-enforced; 16 patches achieve max client-side result (no dialog/lock/timer/trailer).
 - [Flutter APK unlock via SharedPreferences](flutter-sharedprefs-unlock.md) — Flutter lock state lives in SharedPreferences (not smali); inject unlock data in MainActivity.onCreate before super() call.
 - [libapp.so Dart AOT disassembly](libapp-disassembly.md) — ARM64 code starts at 0x6f69c0; register layout, field access, bool-getter candidate at 0x9cc8d0.
+- [Unity APK patching methodology](unity-apk-patch-methodology.md) — Split APK merge + AppLovin MAX ad block + SharedPreferences injection via UnityPlayerActivity for coins/levels/cars.

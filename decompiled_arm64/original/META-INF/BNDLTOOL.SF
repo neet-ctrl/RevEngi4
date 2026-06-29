@@ -1,0 +1,23 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: rcQnK7lUvaC0oe/E/MmKXJwyfso=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA1-Digest: H5Cw76FRpBdjL6SxD+bOHAo0mGI=
+
+Name: lib/arm64-v8a/libapplovin-native-crash-reporter.so
+SHA1-Digest: wBvCicnlGklIXjXx1f6abGIoxsc=
+
+Name: lib/arm64-v8a/libil2cpp.so
+SHA1-Digest: eYxVYh+kRl5rqKNyGPSl1BpdyzM=
+
+Name: lib/arm64-v8a/libmain.so
+SHA1-Digest: aLYNGAOIBijZe/gMtSmcvGBeg6c=
+
+Name: lib/arm64-v8a/libunity.so
+SHA1-Digest: VdxgNAa0CiJxBL1BoI3XJp8XdTQ=
+
+Name: stamp-cert-sha256
+SHA1-Digest: Bs40BvDZ1xrbgQrPTD2x5w/NfHQ=
+
