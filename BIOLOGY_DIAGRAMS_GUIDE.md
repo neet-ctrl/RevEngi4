@@ -225,7 +225,101 @@ The GETALL. After DataStore returns its Map, replace `return-object p1` with:
 
 ---
 
-## 5. TOOLS REQUIRED
+## 5. libapp.so DISASSEMBLY FINDINGS
+
+`libapp.so` contains ALL compiled Dart code (AOT ARM64). The smali patch (Patch 5, l2/I.smali) intercepts at the Java platform channel level before Dart ever sees SharedPreferences data, so a binary patch of libapp.so is NOT required for the unlock to work. These findings are here for completeness and for any future agent who needs to go deeper.
+
+### ELF Section Layout
+| Section | File Offset | Size | Contents |
+|---------|-------------|------|----------|
+| `.rodata` | 0x340 | 0x6D2360 | Dart snapshot DATA (Code, Function, Class, String objects) |
+| `.text` (VM instr) | 0x6e0000 | 0x16940 | VM runtime stub instructions |
+| `.text` (Isolate instr) | 0x6f6940 | 0x3E90C0 | **App Dart function code (ARM64)** |
+
+### Actual ARM64 Code Start
+The isolate instructions section has an **0x80-byte header** before real code:
+- **Actual ARM64 code starts at file offset `0x6f69c0`** (skip 0x80 bytes from section start)
+- Total functions found: **13,535** (using prologue pattern `stp x29, x30, [x15, #-N]!`)
+
+### Dart AOT ARM64 Register Conventions
+| Register | Role |
+|----------|------|
+| X26 | THR — Thread register |
+| X27 | PP — Object Pool pointer |
+| X28 | HeapBase — upper 32 bits of heap (for compressed pointer expansion) |
+| X15 | SP — Dart stack pointer (NOT hardware SP) |
+| X22 | Bool/Isolate base (X22+0x20 = false object, X22+0x30 = true object) |
+| X29 | Frame pointer |
+| X30 | Link register (return address) |
+
+### Field Access Pattern (Dart Compressed Pointers)
+```asm
+ldur w2, [x1, #7]           ; load field 0 from object in X1 (compressed 4-byte)
+add  x2, x2, x28, lsl #32  ; expand to full 64-bit pointer
+```
+Field offsets from tagged object pointer (low bit = 1):
+| Dart Field # | Tagged Offset |
+|--------------|---------------|
+| 0 | `#7` |
+| 1 | `#0xb` (11) |
+| 2 | `#0xf` (15) |
+| 3 | `#0x13` (19) |
+| N | `#(7 + N*4)` |
+
+### Stack Overflow Check Pattern (inline, most functions)
+```asm
+ldr x16, [x26, #0x38]  ; load stack_limit from Thread
+cmp x15, x16           ; compare current SP with limit
+b.ls #<slowpath>        ; branch to overflow handler if needed
+```
+
+### Bool-Returning Getter Candidate (Possible `get:locked`)
+**Address: `0x009cc8d0`** — only CSEL function found matching bool getter pattern:
+```asm
+stp x29, x30, [x15, #-0x10]!
+mov x29, x15
+bl  #0xac0264              ; safepoint/interrupt check stub
+ldr x1, [x15]             ; load receiver from stack frame
+ldur w2, [x1, #7]         ; load field 0 of receiver (bool field)
+add x2, x2, x28, lsl #32  ; expand compressed pointer
+ldr x16, [x27, #0x2a10]   ; load comparison value from object pool
+cmp w2, w16               ; compare field with expected value
+add x16, x22, #0x20       ; X22+0x20 = false bool singleton
+add x17, x22, #0x30       ; X22+0x30 = true bool singleton
+csel x0, x16, x17, eq     ; if field == expected → false; else → true
+ret
+```
+This is the pattern for `return field == trueSingleton ? false : true` — i.e., `return !field` (bool negation getter).
+
+Called via **dispatch table** (indirect call) — no direct BL callers. This is normal for Dart instance methods/getters.
+
+### How to patch 0x009cc8d0 to always return false (always unlocked):
+Replace `csel x0, x16, x17, eq` with `add x0, x22, #0x20` (always return false bool):
+- File offset of CSEL instruction: `0x009cc8d0 + 40 = 0x009cc8f8`
+- `csel x0, x16, x17, eq` bytes: `00 02 11 9A` (little-endian)
+- `add x0, x22, #0x20` bytes: `C0 82 00 91`
+- Patch: write `C0 82 00 91` at file offset `0x009cc8f8`
+- Must re-sign the APK after patching libapp.so
+
+⚠️ **NOT CONFIRMED** that 0x009cc8d0 is `get:locked` — it's the best candidate based on structure but requires runtime verification (GDB attach, or Dart snapshot symbol tools).
+
+### Key Strings in .rodata
+| String | File Offset |
+|--------|-------------|
+| `get:locked` | 0x3c523b |
+| `_isUnlocked@525373926` | 0x6eb8b |
+| `unlockedSets` | 0x27eb03 |
+| `UnlockedSets` | 0x28d0bb |
+
+### Tools for deeper libapp.so analysis (future work)
+- `dart --disassemble-all snapshot.dart.aot` — prints Dart function names with addresses (needs Dart SDK)
+- GDB with `aarch64-linux-gnu-gdb` + Android emulator — breakpoint on dispatch table entries
+- `objdump -d --arch=aarch64` — basic disassembly
+- `pip install capstone` — already installed; used for all analysis above
+
+---
+
+## 6. TOOLS REQUIRED
 
 ```bash
 # apktool — decompile/recompile APK
@@ -237,8 +331,9 @@ apksigner  # version 35.0.6 used
 # Java — required by apktool and apksigner
 java  # OpenJDK 17.0.15 used
 
-# Python3 — for analysis and binary search
+# Python3 + capstone — for analysis and binary search/disassembly
 python3  # used for binary analysis of libapp.so
+pip install capstone  # capstone 5.0.9 — ARM64 disassembler (already installed)
 ```
 
 All available in Replit NixOS environment via replit.nix.
