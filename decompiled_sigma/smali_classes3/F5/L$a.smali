@@ -1,0 +1,95 @@
+.class public LF5/L$a;
+.super LF5/L;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = LF5/L;->c()LF5/L;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic b:Ljava/lang/reflect/Method;
+
+.field public final synthetic c:Ljava/lang/Object;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/reflect/Method;Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, LF5/L$a;->b:Ljava/lang/reflect/Method;
+
+    .line 2
+    .line 3
+    iput-object p2, p0, LF5/L$a;->c:Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    invoke-direct {p0}, LF5/L;-><init>()V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public d(Ljava/lang/Class;)Ljava/lang/Object;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/lang/Class<",
+            "TT;>;)TT;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    .line 1
+    invoke-static {p1}, LF5/L;->a(Ljava/lang/Class;)V
+
+    .line 2
+    .line 3
+    .line 4
+    iget-object v0, p0, LF5/L$a;->b:Ljava/lang/reflect/Method;
+
+    .line 5
+    .line 6
+    iget-object v1, p0, LF5/L$a;->c:Ljava/lang/Object;
+
+    .line 7
+    .line 8
+    filled-new-array {p1}, [Ljava/lang/Object;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object p1
+
+    .line 12
+    invoke-virtual {v0, v1, p1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object p1
+
+    .line 16
+    return-object p1
+.end method

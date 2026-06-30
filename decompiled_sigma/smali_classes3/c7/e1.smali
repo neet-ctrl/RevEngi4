@@ -1,0 +1,32 @@
+.class public interface abstract Lc7/e1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lc7/M0;
+
+
+# annotations
+.annotation build Lc7/H0;
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lc7/e1$a;
+    }
+.end annotation
+
+.annotation runtime Lh6/o;
+    level = .enum Lh6/q;->g0:Lh6/q;
+    message = "This is internal API and may be removed in the future releases"
+.end annotation
+
+
+# virtual methods
+.method public abstract b0()Ljava/util/concurrent/CancellationException;
+    .annotation build La8/l;
+    .end annotation
+
+    .annotation build Lc7/H0;
+    .end annotation
+.end method

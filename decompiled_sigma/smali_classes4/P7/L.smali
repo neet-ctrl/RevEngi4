@@ -1,0 +1,39 @@
+.class public interface abstract annotation LP7/L;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/annotation/Annotation;
+
+
+# annotations
+.annotation runtime LY7/F;
+    value = {
+        LP7/b;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/AnnotationDefault;
+    value = .subannotation LP7/L;
+        value = .enum LP7/o;->p0:LP7/o;
+    .end subannotation
+.end annotation
+
+.annotation runtime Ljava/lang/annotation/Documented;
+.end annotation
+
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->RUNTIME:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
+
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->TYPE_USE:Ljava/lang/annotation/ElementType;,
+        .enum Ljava/lang/annotation/ElementType;->TYPE_PARAMETER:Ljava/lang/annotation/ElementType;
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract value()LP7/o;
+.end method

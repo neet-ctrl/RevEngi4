@@ -1,0 +1,48 @@
+.class public final Lcom/onesignal/inAppMessages/internal/display/impl/OSWebView;
+.super Landroid/webkit/WebView;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;)V
+    .locals 0
+    .param p1    # Landroid/content/Context;
+        .annotation build La8/m;
+        .end annotation
+    .end param
+
+    .line 1
+    invoke-static {p1}, Lkotlin/jvm/internal/M;->m(Ljava/lang/Object;)V
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-direct {p0, p1}, Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+.end method
+
+
+# virtual methods
+.method public computeScroll()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public overScrollBy(IIIIIIIIZ)Z
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public scrollTo(II)V
+    .locals 0
+
+    return-void
+.end method

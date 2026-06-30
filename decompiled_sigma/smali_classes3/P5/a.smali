@@ -1,0 +1,36 @@
+.class public final synthetic LP5/a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic f0:Lcom/onesignal/core/internal/startup/StartupService;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/onesignal/core/internal/startup/StartupService;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LP5/a;->f0:Lcom/onesignal/core/internal/startup/StartupService;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, LP5/a;->f0:Lcom/onesignal/core/internal/startup/StartupService;
+
+    invoke-static {v0}, Lcom/onesignal/core/internal/startup/StartupService;->a(Lcom/onesignal/core/internal/startup/StartupService;)V
+
+    return-void
+.end method

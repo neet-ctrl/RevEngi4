@@ -1,0 +1,185 @@
+.class Lio/flutter/embedding/engine/image/ImageDecoderDefaultImpl;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lio/flutter/embedding/engine/image/ImageDecoder;
+
+
+# annotations
+.annotation build Lj/Y;
+    value = 0x1c
+.end annotation
+
+
+# static fields
+.field private static final TAG:Ljava/lang/String; = "FlutterImageDecoderImplDefault"
+
+
+# instance fields
+.field private final listener:Lio/flutter/embedding/engine/image/FlutterImageDecoder$HeaderListener;
+
+
+# direct methods
+.method public constructor <init>(Lio/flutter/embedding/engine/image/FlutterImageDecoder$HeaderListener;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lio/flutter/embedding/engine/image/ImageDecoderDefaultImpl;->listener:Lio/flutter/embedding/engine/image/FlutterImageDecoder$HeaderListener;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public static synthetic a(Lio/flutter/embedding/engine/image/ImageDecoderDefaultImpl;Landroid/graphics/ImageDecoder;Landroid/graphics/ImageDecoder$ImageInfo;Landroid/graphics/ImageDecoder$Source;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2, p3}, Lio/flutter/embedding/engine/image/ImageDecoderDefaultImpl;->lambda$decodeImage$0(Landroid/graphics/ImageDecoder;Landroid/graphics/ImageDecoder$ImageInfo;Landroid/graphics/ImageDecoder$Source;)V
+
+    return-void
+.end method
+
+.method private synthetic lambda$decodeImage$0(Landroid/graphics/ImageDecoder;Landroid/graphics/ImageDecoder$ImageInfo;Landroid/graphics/ImageDecoder$Source;)V
+    .locals 0
+
+    .line 1
+    invoke-static {}, LV/c;->a()Landroid/graphics/ColorSpace$Named;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p3
+
+    .line 5
+    invoke-static {p3}, LV/d;->a(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p3
+
+    .line 9
+    invoke-static {p1, p3}, Lio/flutter/embedding/engine/image/b;->a(Landroid/graphics/ImageDecoder;Landroid/graphics/ColorSpace;)V
+
+    .line 10
+    .line 11
+    .line 12
+    const/4 p3, 0x1
+
+    .line 13
+    invoke-static {p1, p3}, Lio/flutter/embedding/engine/image/c;->a(Landroid/graphics/ImageDecoder;I)V
+
+    .line 14
+    .line 15
+    .line 16
+    iget-object p1, p0, Lio/flutter/embedding/engine/image/ImageDecoderDefaultImpl;->listener:Lio/flutter/embedding/engine/image/FlutterImageDecoder$HeaderListener;
+
+    .line 17
+    .line 18
+    if-eqz p1, :cond_0
+
+    .line 19
+    .line 20
+    invoke-static {p2}, Lio/flutter/embedding/engine/image/d;->a(Landroid/graphics/ImageDecoder$ImageInfo;)Landroid/util/Size;
+
+    .line 21
+    .line 22
+    .line 23
+    move-result-object p1
+
+    .line 24
+    iget-object p2, p0, Lio/flutter/embedding/engine/image/ImageDecoderDefaultImpl;->listener:Lio/flutter/embedding/engine/image/FlutterImageDecoder$HeaderListener;
+
+    .line 25
+    .line 26
+    invoke-virtual {p1}, Landroid/util/Size;->getWidth()I
+
+    .line 27
+    .line 28
+    .line 29
+    move-result p3
+
+    .line 30
+    invoke-virtual {p1}, Landroid/util/Size;->getHeight()I
+
+    .line 31
+    .line 32
+    .line 33
+    move-result p1
+
+    .line 34
+    invoke-interface {p2, p3, p1}, Lio/flutter/embedding/engine/image/FlutterImageDecoder$HeaderListener;->onImageHeader(II)V
+
+    .line 35
+    .line 36
+    .line 37
+    :cond_0
+    return-void
+.end method
+
+
+# virtual methods
+.method public decodeImage(Ljava/nio/ByteBuffer;Lio/flutter/embedding/engine/image/Metadata;)Landroid/graphics/Bitmap;
+    .locals 1
+
+    .line 1
+    invoke-static {p1}, Lio/flutter/embedding/engine/image/a;->a(Ljava/nio/ByteBuffer;)Landroid/graphics/ImageDecoder$Source;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    :try_start_0
+    new-instance p2, Lio/flutter/embedding/engine/image/e;
+
+    .line 6
+    .line 7
+    invoke-direct {p2, p0}, Lio/flutter/embedding/engine/image/e;-><init>(Lio/flutter/embedding/engine/image/ImageDecoderDefaultImpl;)V
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-static {p1, p2}, LV/D;->a(Landroid/graphics/ImageDecoder$Source;Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;)Landroid/graphics/Bitmap;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object p1
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 14
+    return-object p1
+
+    .line 15
+    :catch_0
+    move-exception p1
+
+    .line 16
+    const-string p2, "FlutterImageDecoderImplDefault"
+
+    .line 17
+    .line 18
+    const-string v0, "Failed to decode image"
+
+    .line 19
+    .line 20
+    invoke-static {p2, v0, p1}, Lio/flutter/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    .line 21
+    .line 22
+    .line 23
+    const/4 p1, 0x0
+
+    .line 24
+    return-object p1
+.end method

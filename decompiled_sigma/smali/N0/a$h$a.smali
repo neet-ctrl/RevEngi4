@@ -1,0 +1,57 @@
+.class public LN0/a$h$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LN0/a$h;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic f0:LN0/a$h;
+
+
+# direct methods
+.method public constructor <init>(LN0/a$h;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, LN0/a$h$a;->f0:LN0/a$h;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, LN0/a$h$a;->f0:LN0/a$h;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, LN0/a$h;->b()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method

@@ -1,0 +1,3273 @@
+.class public final LI1/D1$b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LI1/D1;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "b"
+.end annotation
+
+
+# instance fields
+.field public A:J
+
+.field public B:J
+
+.field public C:J
+
+.field public D:J
+
+.field public E:J
+
+.field public F:I
+
+.field public G:I
+
+.field public H:I
+
+.field public I:J
+
+.field public J:Z
+
+.field public K:Z
+
+.field public L:Z
+
+.field public M:Z
+
+.field public N:Z
+
+.field public O:J
+
+.field public P:Ly1/x;
+    .annotation build Lj/Q;
+    .end annotation
+.end field
+
+.field public Q:Ly1/x;
+    .annotation build Lj/Q;
+    .end annotation
+.end field
+
+.field public R:J
+
+.field public S:J
+
+.field public T:F
+
+.field public final a:Z
+
+.field public final b:[J
+
+.field public final c:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "LI1/C1$c;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final d:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "[J>;"
+        }
+    .end annotation
+.end field
+
+.field public final e:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "LI1/C1$b;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final f:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "LI1/C1$b;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final g:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "LI1/C1$a;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final h:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "LI1/C1$a;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final i:Z
+
+.field public j:J
+
+.field public k:Z
+
+.field public l:Z
+
+.field public m:Z
+
+.field public n:I
+
+.field public o:I
+
+.field public p:I
+
+.field public q:I
+
+.field public r:J
+
+.field public s:I
+
+.field public t:J
+
+.field public u:J
+
+.field public v:J
+
+.field public w:J
+
+.field public x:J
+
+.field public y:J
+
+.field public z:J
+
+
+# direct methods
+.method public constructor <init>(ZLI1/b$b;)V
+    .locals 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-boolean p1, p0, LI1/D1$b;->a:Z
+
+    .line 5
+    .line 6
+    const/16 v0, 0x10
+
+    .line 7
+    .line 8
+    new-array v0, v0, [J
+
+    .line 9
+    .line 10
+    iput-object v0, p0, LI1/D1$b;->b:[J
+
+    .line 11
+    .line 12
+    if-eqz p1, :cond_0
+
+    .line 13
+    .line 14
+    new-instance v0, Ljava/util/ArrayList;
+
+    .line 15
+    .line 16
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    .line 17
+    .line 18
+    .line 19
+    goto :goto_0
+
+    .line 20
+    :cond_0
+    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
+
+    .line 21
+    .line 22
+    .line 23
+    move-result-object v0
+
+    .line 24
+    :goto_0
+    iput-object v0, p0, LI1/D1$b;->c:Ljava/util/List;
+
+    .line 25
+    .line 26
+    if-eqz p1, :cond_1
+
+    .line 27
+    .line 28
+    new-instance v0, Ljava/util/ArrayList;
+
+    .line 29
+    .line 30
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    .line 31
+    .line 32
+    .line 33
+    goto :goto_1
+
+    .line 34
+    :cond_1
+    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
+
+    .line 35
+    .line 36
+    .line 37
+    move-result-object v0
+
+    .line 38
+    :goto_1
+    iput-object v0, p0, LI1/D1$b;->d:Ljava/util/List;
+
+    .line 39
+    .line 40
+    if-eqz p1, :cond_2
+
+    .line 41
+    .line 42
+    new-instance v0, Ljava/util/ArrayList;
+
+    .line 43
+    .line 44
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    .line 45
+    .line 46
+    .line 47
+    goto :goto_2
+
+    .line 48
+    :cond_2
+    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
+
+    .line 49
+    .line 50
+    .line 51
+    move-result-object v0
+
+    .line 52
+    :goto_2
+    iput-object v0, p0, LI1/D1$b;->e:Ljava/util/List;
+
+    .line 53
+    .line 54
+    if-eqz p1, :cond_3
+
+    .line 55
+    .line 56
+    new-instance v0, Ljava/util/ArrayList;
+
+    .line 57
+    .line 58
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    .line 59
+    .line 60
+    .line 61
+    goto :goto_3
+
+    .line 62
+    :cond_3
+    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
+
+    .line 63
+    .line 64
+    .line 65
+    move-result-object v0
+
+    .line 66
+    :goto_3
+    iput-object v0, p0, LI1/D1$b;->f:Ljava/util/List;
+
+    .line 67
+    .line 68
+    if-eqz p1, :cond_4
+
+    .line 69
+    .line 70
+    new-instance v0, Ljava/util/ArrayList;
+
+    .line 71
+    .line 72
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    .line 73
+    .line 74
+    .line 75
+    goto :goto_4
+
+    .line 76
+    :cond_4
+    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
+
+    .line 77
+    .line 78
+    .line 79
+    move-result-object v0
+
+    .line 80
+    :goto_4
+    iput-object v0, p0, LI1/D1$b;->g:Ljava/util/List;
+
+    .line 81
+    .line 82
+    if-eqz p1, :cond_5
+
+    .line 83
+    .line 84
+    new-instance p1, Ljava/util/ArrayList;
+
+    .line 85
+    .line 86
+    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
+
+    .line 87
+    .line 88
+    .line 89
+    goto :goto_5
+
+    .line 90
+    :cond_5
+    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
+
+    .line 91
+    .line 92
+    .line 93
+    move-result-object p1
+
+    .line 94
+    :goto_5
+    iput-object p1, p0, LI1/D1$b;->h:Ljava/util/List;
+
+    .line 95
+    .line 96
+    const/4 p1, 0x0
+
+    .line 97
+    iput p1, p0, LI1/D1$b;->H:I
+
+    .line 98
+    .line 99
+    iget-wide v0, p2, LI1/b$b;->a:J
+
+    .line 100
+    .line 101
+    iput-wide v0, p0, LI1/D1$b;->I:J
+
+    .line 102
+    .line 103
+    const-wide v0, -0x7fffffffffffffffL    # -4.9E-324
+
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    iput-wide v0, p0, LI1/D1$b;->j:J
+
+    .line 109
+    .line 110
+    iput-wide v0, p0, LI1/D1$b;->r:J
+
+    .line 111
+    .line 112
+    iget-object p2, p2, LI1/b$b;->d:Lb2/O$b;
+
+    .line 113
+    .line 114
+    if-eqz p2, :cond_6
+
+    .line 115
+    .line 116
+    invoke-virtual {p2}, Lb2/O$b;->c()Z
+
+    .line 117
+    .line 118
+    .line 119
+    move-result p2
+
+    .line 120
+    if-eqz p2, :cond_6
+
+    .line 121
+    .line 122
+    const/4 p1, 0x1
+
+    .line 123
+    :cond_6
+    iput-boolean p1, p0, LI1/D1$b;->i:Z
+
+    .line 124
+    .line 125
+    const-wide/16 p1, -0x1
+
+    .line 126
+    .line 127
+    iput-wide p1, p0, LI1/D1$b;->u:J
+
+    .line 128
+    .line 129
+    iput-wide p1, p0, LI1/D1$b;->t:J
+
+    .line 130
+    .line 131
+    const/4 p1, -0x1
+
+    .line 132
+    iput p1, p0, LI1/D1$b;->s:I
+
+    .line 133
+    .line 134
+    const/high16 p1, 0x3f800000    # 1.0f
+
+    .line 135
+    .line 136
+    iput p1, p0, LI1/D1$b;->T:F
+
+    .line 137
+    .line 138
+    return-void
+.end method
+
+.method public static c(II)Z
+    .locals 4
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    const/16 v1, 0xe
+
+    .line 3
+    .line 4
+    const/4 v2, 0x2
+
+    .line 5
+    const/4 v3, 0x1
+
+    .line 6
+    if-eq p0, v3, :cond_0
+
+    .line 7
+    .line 8
+    if-eq p0, v2, :cond_0
+
+    .line 9
+    .line 10
+    if-eq p0, v1, :cond_0
+
+    .line 11
+    .line 12
+    return v0
+
+    .line 13
+    :cond_0
+    if-eq p1, v3, :cond_1
+
+    .line 14
+    .line 15
+    if-eq p1, v2, :cond_1
+
+    .line 16
+    .line 17
+    if-eq p1, v1, :cond_1
+
+    .line 18
+    .line 19
+    const/4 p0, 0x3
+
+    .line 20
+    if-eq p1, p0, :cond_1
+
+    .line 21
+    .line 22
+    const/4 p0, 0x4
+
+    .line 23
+    if-eq p1, p0, :cond_1
+
+    .line 24
+    .line 25
+    const/16 p0, 0x9
+
+    .line 26
+    .line 27
+    if-eq p1, p0, :cond_1
+
+    .line 28
+    .line 29
+    const/16 p0, 0xb
+
+    .line 30
+    .line 31
+    if-eq p1, p0, :cond_1
+
+    .line 32
+    .line 33
+    move v0, v3
+
+    .line 34
+    :cond_1
+    return v0
+.end method
+
+.method public static d(I)Z
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x4
+
+    .line 2
+    if-eq p0, v0, :cond_1
+
+    .line 3
+    .line 4
+    const/4 v0, 0x7
+
+    .line 5
+    if-ne p0, v0, :cond_0
+
+    .line 6
+    .line 7
+    goto :goto_0
+
+    .line 8
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 9
+    goto :goto_1
+
+    .line 10
+    :cond_1
+    :goto_0
+    const/4 p0, 0x1
+
+    .line 11
+    :goto_1
+    return p0
+.end method
+
+.method public static e(I)Z
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x3
+
+    .line 2
+    if-eq p0, v0, :cond_1
+
+    .line 3
+    .line 4
+    const/4 v0, 0x4
+
+    .line 5
+    if-eq p0, v0, :cond_1
+
+    .line 6
+    .line 7
+    const/16 v0, 0x9
+
+    .line 8
+    .line 9
+    if-ne p0, v0, :cond_0
+
+    .line 10
+    .line 11
+    goto :goto_0
+
+    .line 12
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 13
+    goto :goto_1
+
+    .line 14
+    :cond_1
+    :goto_0
+    const/4 p0, 0x1
+
+    .line 15
+    :goto_1
+    return p0
+.end method
+
+.method public static f(I)Z
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x6
+
+    .line 2
+    if-eq p0, v0, :cond_1
+
+    .line 3
+    .line 4
+    const/4 v0, 0x7
+
+    .line 5
+    if-eq p0, v0, :cond_1
+
+    .line 6
+    .line 7
+    const/16 v0, 0xa
+
+    .line 8
+    .line 9
+    if-ne p0, v0, :cond_0
+
+    .line 10
+    .line 11
+    goto :goto_0
+
+    .line 12
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 13
+    goto :goto_1
+
+    .line 14
+    :cond_1
+    :goto_0
+    const/4 p0, 0x1
+
+    .line 15
+    :goto_1
+    return p0
+.end method
+
+
+# virtual methods
+.method public a(Z)LI1/C1;
+    .locals 63
+
+    .line 1
+    move-object/from16 v0, p0
+
+    .line 2
+    .line 3
+    iget-object v1, v0, LI1/D1$b;->b:[J
+
+    .line 4
+    .line 5
+    iget-object v2, v0, LI1/D1$b;->d:Ljava/util/List;
+
+    .line 6
+    .line 7
+    const-wide/16 v3, 0x0
+
+    .line 8
+    .line 9
+    if-nez p1, :cond_1
+
+    .line 10
+    .line 11
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-wide v1
+
+    .line 15
+    iget-object v5, v0, LI1/D1$b;->b:[J
+
+    .line 16
+    .line 17
+    const/16 v6, 0x10
+
+    .line 18
+    .line 19
+    invoke-static {v5, v6}, Ljava/util/Arrays;->copyOf([JI)[J
+
+    .line 20
+    .line 21
+    .line 22
+    move-result-object v5
+
+    .line 23
+    iget-wide v6, v0, LI1/D1$b;->I:J
+
+    .line 24
+    .line 25
+    sub-long v6, v1, v6
+
+    .line 26
+    .line 27
+    invoke-static {v3, v4, v6, v7}, Ljava/lang/Math;->max(JJ)J
+
+    .line 28
+    .line 29
+    .line 30
+    move-result-wide v6
+
+    .line 31
+    iget v8, v0, LI1/D1$b;->H:I
+
+    .line 32
+    .line 33
+    aget-wide v9, v5, v8
+
+    .line 34
+    .line 35
+    add-long/2addr v9, v6
+
+    .line 36
+    aput-wide v9, v5, v8
+
+    .line 37
+    .line 38
+    invoke-virtual {v0, v1, v2}, LI1/D1$b;->j(J)V
+
+    .line 39
+    .line 40
+    .line 41
+    invoke-virtual {v0, v1, v2}, LI1/D1$b;->h(J)V
+
+    .line 42
+    .line 43
+    .line 44
+    invoke-virtual {v0, v1, v2}, LI1/D1$b;->g(J)V
+
+    .line 45
+    .line 46
+    .line 47
+    new-instance v6, Ljava/util/ArrayList;
+
+    .line 48
+    .line 49
+    iget-object v7, v0, LI1/D1$b;->d:Ljava/util/List;
+
+    .line 50
+    .line 51
+    invoke-direct {v6, v7}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+
+    .line 52
+    .line 53
+    .line 54
+    iget-boolean v7, v0, LI1/D1$b;->a:Z
+
+    .line 55
+    .line 56
+    if-eqz v7, :cond_0
+
+    .line 57
+    .line 58
+    iget v7, v0, LI1/D1$b;->H:I
+
+    .line 59
+    .line 60
+    const/4 v8, 0x3
+
+    .line 61
+    if-ne v7, v8, :cond_0
+
+    .line 62
+    .line 63
+    invoke-virtual {v0, v1, v2}, LI1/D1$b;->b(J)[J
+
+    .line 64
+    .line 65
+    .line 66
+    move-result-object v1
+
+    .line 67
+    invoke-interface {v6, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 68
+    .line 69
+    .line 70
+    :cond_0
+    move-object v9, v5
+
+    .line 71
+    move-object v11, v6
+
+    .line 72
+    goto :goto_0
+
+    .line 73
+    :cond_1
+    move-object v9, v1
+
+    .line 74
+    move-object v11, v2
+
+    .line 75
+    :goto_0
+    iget-boolean v1, v0, LI1/D1$b;->m:Z
+
+    .line 76
+    .line 77
+    const/4 v5, 0x1
+
+    .line 78
+    if-nez v1, :cond_3
+
+    .line 79
+    .line 80
+    iget-boolean v1, v0, LI1/D1$b;->k:Z
+
+    .line 81
+    .line 82
+    if-nez v1, :cond_2
+
+    .line 83
+    .line 84
+    goto :goto_1
+
+    .line 85
+    :cond_2
+    const/4 v1, 0x0
+
+    .line 86
+    goto :goto_2
+
+    .line 87
+    :cond_3
+    :goto_1
+    move v1, v5
+
+    .line 88
+    :goto_2
+    if-eqz v1, :cond_4
+
+    .line 89
+    .line 90
+    const-wide v6, -0x7fffffffffffffffL    # -4.9E-324
+
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    :goto_3
+    move-wide/from16 v18, v6
+
+    .line 96
+    .line 97
+    goto :goto_4
+
+    .line 98
+    :cond_4
+    const/4 v6, 0x2
+
+    .line 99
+    aget-wide v6, v9, v6
+
+    .line 100
+    .line 101
+    goto :goto_3
+
+    .line 102
+    :goto_4
+    aget-wide v6, v9, v5
+
+    .line 103
+    .line 104
+    cmp-long v3, v6, v3
+
+    .line 105
+    .line 106
+    if-lez v3, :cond_5
+
+    .line 107
+    .line 108
+    move/from16 v17, v5
+
+    .line 109
+    .line 110
+    goto :goto_5
+
+    .line 111
+    :cond_5
+    const/16 v17, 0x0
+
+    .line 112
+    .line 113
+    :goto_5
+    if-eqz p1, :cond_6
+
+    .line 114
+    .line 115
+    iget-object v3, v0, LI1/D1$b;->e:Ljava/util/List;
+
+    .line 116
+    .line 117
+    :goto_6
+    move-object/from16 v28, v3
+
+    .line 118
+    .line 119
+    goto :goto_7
+
+    .line 120
+    :cond_6
+    new-instance v3, Ljava/util/ArrayList;
+
+    .line 121
+    .line 122
+    iget-object v4, v0, LI1/D1$b;->e:Ljava/util/List;
+
+    .line 123
+    .line 124
+    invoke-direct {v3, v4}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+
+    .line 125
+    .line 126
+    .line 127
+    goto :goto_6
+
+    .line 128
+    :goto_7
+    if-eqz p1, :cond_7
+
+    .line 129
+    .line 130
+    iget-object v3, v0, LI1/D1$b;->f:Ljava/util/List;
+
+    .line 131
+    .line 132
+    :goto_8
+    move-object/from16 v29, v3
+
+    .line 133
+    .line 134
+    goto :goto_9
+
+    .line 135
+    :cond_7
+    new-instance v3, Ljava/util/ArrayList;
+
+    .line 136
+    .line 137
+    iget-object v4, v0, LI1/D1$b;->f:Ljava/util/List;
+
+    .line 138
+    .line 139
+    invoke-direct {v3, v4}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+
+    .line 140
+    .line 141
+    .line 142
+    goto :goto_8
+
+    .line 143
+    :goto_9
+    new-instance v3, LI1/C1;
+
+    .line 144
+    .line 145
+    if-eqz p1, :cond_8
+
+    .line 146
+    .line 147
+    iget-object v4, v0, LI1/D1$b;->c:Ljava/util/List;
+
+    .line 148
+    .line 149
+    :goto_a
+    move-object v10, v4
+
+    .line 150
+    goto :goto_b
+
+    .line 151
+    :cond_8
+    new-instance v4, Ljava/util/ArrayList;
+
+    .line 152
+    .line 153
+    iget-object v6, v0, LI1/D1$b;->c:Ljava/util/List;
+
+    .line 154
+    .line 155
+    invoke-direct {v4, v6}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+
+    .line 156
+    .line 157
+    .line 158
+    goto :goto_a
+
+    .line 159
+    :goto_b
+    iget-wide v12, v0, LI1/D1$b;->j:J
+
+    .line 160
+    .line 161
+    iget-boolean v14, v0, LI1/D1$b;->K:Z
+
+    .line 162
+    .line 163
+    iget-boolean v4, v0, LI1/D1$b;->k:Z
+
+    .line 164
+    .line 165
+    xor-int/lit8 v15, v4, 0x1
+
+    .line 166
+    .line 167
+    iget-boolean v4, v0, LI1/D1$b;->l:Z
+
+    .line 168
+    .line 169
+    xor-int/lit8 v20, v1, 0x1
+
+    .line 170
+    .line 171
+    iget v1, v0, LI1/D1$b;->n:I
+
+    .line 172
+    .line 173
+    iget v6, v0, LI1/D1$b;->o:I
+
+    .line 174
+    .line 175
+    iget v7, v0, LI1/D1$b;->p:I
+
+    .line 176
+    .line 177
+    iget v8, v0, LI1/D1$b;->q:I
+
+    .line 178
+    .line 179
+    move/from16 v22, v6
+
+    .line 180
+    .line 181
+    iget-wide v5, v0, LI1/D1$b;->r:J
+
+    .line 182
+    .line 183
+    iget-boolean v2, v0, LI1/D1$b;->i:Z
+
+    .line 184
+    .line 185
+    move/from16 v24, v8
+
+    .line 186
+    .line 187
+    move-object/from16 v23, v9
+
+    .line 188
+    .line 189
+    iget-wide v8, v0, LI1/D1$b;->v:J
+
+    .line 190
+    .line 191
+    move-wide/from16 v25, v8
+
+    .line 192
+    .line 193
+    iget-wide v8, v0, LI1/D1$b;->w:J
+
+    .line 194
+    .line 195
+    move-wide/from16 v30, v8
+
+    .line 196
+    .line 197
+    iget-wide v8, v0, LI1/D1$b;->x:J
+
+    .line 198
+    .line 199
+    move-wide/from16 v32, v8
+
+    .line 200
+    .line 201
+    iget-wide v8, v0, LI1/D1$b;->y:J
+
+    .line 202
+    .line 203
+    move-wide/from16 v34, v8
+
+    .line 204
+    .line 205
+    iget-wide v8, v0, LI1/D1$b;->z:J
+
+    .line 206
+    .line 207
+    move-wide/from16 v36, v8
+
+    .line 208
+    .line 209
+    iget-wide v8, v0, LI1/D1$b;->A:J
+
+    .line 210
+    .line 211
+    move-wide/from16 v38, v8
+
+    .line 212
+    .line 213
+    iget v8, v0, LI1/D1$b;->s:I
+
+    .line 214
+    .line 215
+    const/4 v9, -0x1
+
+    .line 216
+    move/from16 v27, v8
+
+    .line 217
+    .line 218
+    if-ne v8, v9, :cond_9
+
+    .line 219
+    .line 220
+    const/16 v42, 0x0
+
+    .line 221
+    .line 222
+    goto :goto_c
+
+    .line 223
+    :cond_9
+    const/16 v42, 0x1
+
+    .line 224
+    .line 225
+    :goto_c
+    iget-wide v8, v0, LI1/D1$b;->t:J
+
+    .line 226
+    .line 227
+    const-wide/16 v40, -0x1
+
+    .line 228
+    .line 229
+    cmp-long v43, v8, v40
+
+    .line 230
+    .line 231
+    move-wide/from16 v44, v8
+
+    .line 232
+    .line 233
+    if-nez v43, :cond_a
+
+    .line 234
+    .line 235
+    const/16 v43, 0x0
+
+    .line 236
+    .line 237
+    goto :goto_d
+
+    .line 238
+    :cond_a
+    const/16 v43, 0x1
+
+    .line 239
+    .line 240
+    :goto_d
+    iget-wide v8, v0, LI1/D1$b;->u:J
+
+    .line 241
+    .line 242
+    cmp-long v40, v8, v40
+
+    .line 243
+    .line 244
+    if-nez v40, :cond_b
+
+    .line 245
+    .line 246
+    move-wide/from16 v40, v8
+
+    .line 247
+    .line 248
+    const/16 v47, 0x0
+
+    .line 249
+    .line 250
+    goto :goto_e
+
+    .line 251
+    :cond_b
+    move-wide/from16 v40, v8
+
+    .line 252
+    .line 253
+    const/16 v47, 0x1
+
+    .line 254
+    .line 255
+    :goto_e
+    iget-wide v8, v0, LI1/D1$b;->B:J
+
+    .line 256
+    .line 257
+    move-wide/from16 v48, v8
+
+    .line 258
+    .line 259
+    iget-wide v8, v0, LI1/D1$b;->C:J
+
+    .line 260
+    .line 261
+    move-wide/from16 v50, v8
+
+    .line 262
+    .line 263
+    iget-wide v8, v0, LI1/D1$b;->D:J
+
+    .line 264
+    .line 265
+    move-wide/from16 v52, v8
+
+    .line 266
+    .line 267
+    iget-wide v8, v0, LI1/D1$b;->E:J
+
+    .line 268
+    .line 269
+    move-wide/from16 v54, v8
+
+    .line 270
+    .line 271
+    iget v8, v0, LI1/D1$b;->F:I
+
+    .line 272
+    .line 273
+    if-lez v8, :cond_c
+
+    .line 274
+    .line 275
+    const/16 v58, 0x1
+
+    .line 276
+    .line 277
+    goto :goto_f
+
+    .line 278
+    :cond_c
+    const/16 v58, 0x0
+
+    .line 279
+    .line 280
+    :goto_f
+    iget v9, v0, LI1/D1$b;->G:I
+
+    .line 281
+    .line 282
+    move/from16 v60, v9
+
+    .line 283
+    .line 284
+    iget-object v9, v0, LI1/D1$b;->g:Ljava/util/List;
+
+    .line 285
+    .line 286
+    move-object/from16 v61, v9
+
+    .line 287
+    .line 288
+    iget-object v9, v0, LI1/D1$b;->h:Ljava/util/List;
+
+    .line 289
+    .line 290
+    move-object/from16 v62, v9
+
+    .line 291
+    .line 292
+    const/4 v9, 0x1
+
+    .line 293
+    move/from16 v59, v8
+
+    .line 294
+    .line 295
+    move-wide/from16 v45, v44
+
+    .line 296
+    .line 297
+    move-wide/from16 v56, v54
+
+    .line 298
+    .line 299
+    move/from16 v44, v27
+
+    .line 300
+    .line 301
+    move-wide/from16 v54, v52
+
+    .line 302
+    .line 303
+    move-wide/from16 v52, v50
+
+    .line 304
+    .line 305
+    move-wide/from16 v50, v48
+
+    .line 306
+    .line 307
+    move-wide/from16 v48, v40
+
+    .line 308
+    .line 309
+    move-wide/from16 v40, v38
+
+    .line 310
+    .line 311
+    move-wide/from16 v38, v36
+
+    .line 312
+    .line 313
+    move-wide/from16 v36, v34
+
+    .line 314
+    .line 315
+    move-wide/from16 v34, v32
+
+    .line 316
+    .line 317
+    move-wide/from16 v32, v30
+
+    .line 318
+    .line 319
+    move-wide/from16 v30, v25
+
+    .line 320
+    .line 321
+    move v8, v9
+
+    .line 322
+    move/from16 v25, v7
+
+    .line 323
+    .line 324
+    move-object v7, v3
+
+    .line 325
+    move-object/from16 v9, v23
+
+    .line 326
+    .line 327
+    move/from16 v16, v4
+
+    .line 328
+    .line 329
+    move/from16 v21, v1
+
+    .line 330
+    .line 331
+    move/from16 v23, v25
+
+    .line 332
+    .line 333
+    move-wide/from16 v25, v5
+
+    .line 334
+    .line 335
+    move/from16 v27, v2
+
+    .line 336
+    .line 337
+    invoke-direct/range {v7 .. v62}, LI1/C1;-><init>(I[JLjava/util/List;Ljava/util/List;JIIIIJIIIIIJILjava/util/List;Ljava/util/List;JJJJJJIIIJIJJJJJIIILjava/util/List;Ljava/util/List;)V
+
+    .line 338
+    .line 339
+    .line 340
+    return-object v3
+.end method
+
+.method public final b(J)[J
+    .locals 7
+
+    .line 1
+    iget-object v0, p0, LI1/D1$b;->d:Ljava/util/List;
+
+    .line 2
+    .line 3
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v1
+
+    .line 7
+    const/4 v2, 0x1
+
+    .line 8
+    sub-int/2addr v1, v2
+
+    .line 9
+    invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    check-cast v0, [J
+
+    .line 14
+    .line 15
+    const/4 v1, 0x0
+
+    .line 16
+    aget-wide v3, v0, v1
+
+    .line 17
+    .line 18
+    aget-wide v5, v0, v2
+
+    .line 19
+    .line 20
+    sub-long v3, p1, v3
+
+    .line 21
+    .line 22
+    long-to-float v0, v3
+
+    .line 23
+    iget v3, p0, LI1/D1$b;->T:F
+
+    .line 24
+    .line 25
+    mul-float/2addr v0, v3
+
+    .line 26
+    float-to-long v3, v0
+
+    .line 27
+    add-long/2addr v5, v3
+
+    .line 28
+    const/4 v0, 0x2
+
+    .line 29
+    new-array v0, v0, [J
+
+    .line 30
+    .line 31
+    aput-wide p1, v0, v1
+
+    .line 32
+    .line 33
+    aput-wide v5, v0, v2
+
+    .line 34
+    .line 35
+    return-object v0
+.end method
+
+.method public final g(J)V
+    .locals 7
+
+    .line 1
+    iget v0, p0, LI1/D1$b;->H:I
+
+    .line 2
+    .line 3
+    const/4 v1, 0x3
+
+    .line 4
+    if-ne v0, v1, :cond_0
+
+    .line 5
+    .line 6
+    iget-object v0, p0, LI1/D1$b;->Q:Ly1/x;
+
+    .line 7
+    .line 8
+    if-eqz v0, :cond_0
+
+    .line 9
+    .line 10
+    iget v0, v0, Ly1/x;->i:I
+
+    .line 11
+    .line 12
+    const/4 v1, -0x1
+
+    .line 13
+    if-eq v0, v1, :cond_0
+
+    .line 14
+    .line 15
+    iget-wide v1, p0, LI1/D1$b;->S:J
+
+    .line 16
+    .line 17
+    sub-long v1, p1, v1
+
+    .line 18
+    .line 19
+    long-to-float v1, v1
+
+    .line 20
+    iget v2, p0, LI1/D1$b;->T:F
+
+    .line 21
+    .line 22
+    mul-float/2addr v1, v2
+
+    .line 23
+    float-to-long v1, v1
+
+    .line 24
+    iget-wide v3, p0, LI1/D1$b;->z:J
+
+    .line 25
+    .line 26
+    add-long/2addr v3, v1
+
+    .line 27
+    iput-wide v3, p0, LI1/D1$b;->z:J
+
+    .line 28
+    .line 29
+    iget-wide v3, p0, LI1/D1$b;->A:J
+
+    .line 30
+    .line 31
+    int-to-long v5, v0
+
+    .line 32
+    mul-long/2addr v1, v5
+
+    .line 33
+    add-long/2addr v3, v1
+
+    .line 34
+    iput-wide v3, p0, LI1/D1$b;->A:J
+
+    .line 35
+    .line 36
+    :cond_0
+    iput-wide p1, p0, LI1/D1$b;->S:J
+
+    .line 37
+    .line 38
+    return-void
+.end method
+
+.method public final h(J)V
+    .locals 9
+
+    .line 1
+    iget v0, p0, LI1/D1$b;->H:I
+
+    .line 2
+    .line 3
+    const/4 v1, 0x3
+
+    .line 4
+    if-ne v0, v1, :cond_1
+
+    .line 5
+    .line 6
+    iget-object v0, p0, LI1/D1$b;->P:Ly1/x;
+
+    .line 7
+    .line 8
+    if-eqz v0, :cond_1
+
+    .line 9
+    .line 10
+    iget-wide v1, p0, LI1/D1$b;->R:J
+
+    .line 11
+    .line 12
+    sub-long v1, p1, v1
+
+    .line 13
+    .line 14
+    long-to-float v1, v1
+
+    .line 15
+    iget v2, p0, LI1/D1$b;->T:F
+
+    .line 16
+    .line 17
+    mul-float/2addr v1, v2
+
+    .line 18
+    float-to-long v1, v1
+
+    .line 19
+    iget v3, v0, Ly1/x;->u:I
+
+    .line 20
+    .line 21
+    const/4 v4, -0x1
+
+    .line 22
+    if-eq v3, v4, :cond_0
+
+    .line 23
+    .line 24
+    iget-wide v5, p0, LI1/D1$b;->v:J
+
+    .line 25
+    .line 26
+    add-long/2addr v5, v1
+
+    .line 27
+    iput-wide v5, p0, LI1/D1$b;->v:J
+
+    .line 28
+    .line 29
+    iget-wide v5, p0, LI1/D1$b;->w:J
+
+    .line 30
+    .line 31
+    int-to-long v7, v3
+
+    .line 32
+    mul-long/2addr v7, v1
+
+    .line 33
+    add-long/2addr v5, v7
+
+    .line 34
+    iput-wide v5, p0, LI1/D1$b;->w:J
+
+    .line 35
+    .line 36
+    :cond_0
+    iget v0, v0, Ly1/x;->i:I
+
+    .line 37
+    .line 38
+    if-eq v0, v4, :cond_1
+
+    .line 39
+    .line 40
+    iget-wide v3, p0, LI1/D1$b;->x:J
+
+    .line 41
+    .line 42
+    add-long/2addr v3, v1
+
+    .line 43
+    iput-wide v3, p0, LI1/D1$b;->x:J
+
+    .line 44
+    .line 45
+    iget-wide v3, p0, LI1/D1$b;->y:J
+
+    .line 46
+    .line 47
+    int-to-long v5, v0
+
+    .line 48
+    mul-long/2addr v1, v5
+
+    .line 49
+    add-long/2addr v3, v1
+
+    .line 50
+    iput-wide v3, p0, LI1/D1$b;->y:J
+
+    .line 51
+    .line 52
+    :cond_1
+    iput-wide p1, p0, LI1/D1$b;->R:J
+
+    .line 53
+    .line 54
+    return-void
+.end method
+
+.method public final i(LI1/b$b;Ly1/x;)V
+    .locals 4
+    .param p2    # Ly1/x;
+        .annotation build Lj/Q;
+        .end annotation
+    .end param
+
+    .line 1
+    iget-object v0, p0, LI1/D1$b;->Q:Ly1/x;
+
+    .line 2
+    .line 3
+    invoke-static {v0, p2}, LB1/i0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    return-void
+
+    .line 10
+    :cond_0
+    iget-wide v0, p1, LI1/b$b;->a:J
+
+    .line 11
+    .line 12
+    invoke-virtual {p0, v0, v1}, LI1/D1$b;->g(J)V
+
+    .line 13
+    .line 14
+    .line 15
+    if-eqz p2, :cond_1
+
+    .line 16
+    .line 17
+    iget-wide v0, p0, LI1/D1$b;->u:J
+
+    .line 18
+    .line 19
+    const-wide/16 v2, -0x1
+
+    .line 20
+    .line 21
+    cmp-long v0, v0, v2
+
+    .line 22
+    .line 23
+    if-nez v0, :cond_1
+
+    .line 24
+    .line 25
+    iget v0, p2, Ly1/x;->i:I
+
+    .line 26
+    .line 27
+    const/4 v1, -0x1
+
+    .line 28
+    if-eq v0, v1, :cond_1
+
+    .line 29
+    .line 30
+    int-to-long v0, v0
+
+    .line 31
+    iput-wide v0, p0, LI1/D1$b;->u:J
+
+    .line 32
+    .line 33
+    :cond_1
+    iput-object p2, p0, LI1/D1$b;->Q:Ly1/x;
+
+    .line 34
+    .line 35
+    iget-boolean v0, p0, LI1/D1$b;->a:Z
+
+    .line 36
+    .line 37
+    if-eqz v0, :cond_2
+
+    .line 38
+    .line 39
+    iget-object v0, p0, LI1/D1$b;->f:Ljava/util/List;
+
+    .line 40
+    .line 41
+    new-instance v1, LI1/C1$b;
+
+    .line 42
+    .line 43
+    invoke-direct {v1, p1, p2}, LI1/C1$b;-><init>(LI1/b$b;Ly1/x;)V
+
+    .line 44
+    .line 45
+    .line 46
+    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 47
+    .line 48
+    .line 49
+    :cond_2
+    return-void
+.end method
+
+.method public final j(J)V
+    .locals 4
+
+    .line 1
+    iget v0, p0, LI1/D1$b;->H:I
+
+    .line 2
+    .line 3
+    invoke-static {v0}, LI1/D1$b;->f(I)Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    if-eqz v0, :cond_1
+
+    .line 8
+    .line 9
+    iget-wide v0, p0, LI1/D1$b;->O:J
+
+    .line 10
+    .line 11
+    sub-long/2addr p1, v0
+
+    .line 12
+    iget-wide v0, p0, LI1/D1$b;->r:J
+
+    .line 13
+    .line 14
+    const-wide v2, -0x7fffffffffffffffL    # -4.9E-324
+
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    cmp-long v2, v0, v2
+
+    .line 20
+    .line 21
+    if-eqz v2, :cond_0
+
+    .line 22
+    .line 23
+    cmp-long v0, p1, v0
+
+    .line 24
+    .line 25
+    if-lez v0, :cond_1
+
+    .line 26
+    .line 27
+    :cond_0
+    iput-wide p1, p0, LI1/D1$b;->r:J
+
+    .line 28
+    .line 29
+    :cond_1
+    return-void
+.end method
+
+.method public final k(JJ)V
+    .locals 9
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    const/4 v1, 0x2
+
+    .line 3
+    const/4 v2, 0x1
+
+    .line 4
+    iget-boolean v3, p0, LI1/D1$b;->a:Z
+
+    .line 5
+    .line 6
+    if-nez v3, :cond_0
+
+    .line 7
+    .line 8
+    return-void
+
+    .line 9
+    :cond_0
+    iget v3, p0, LI1/D1$b;->H:I
+
+    .line 10
+    .line 11
+    const/4 v4, 0x3
+
+    .line 12
+    const-wide v5, -0x7fffffffffffffffL    # -4.9E-324
+
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    if-eq v3, v4, :cond_2
+
+    .line 18
+    .line 19
+    cmp-long v3, p3, v5
+
+    .line 20
+    .line 21
+    if-nez v3, :cond_1
+
+    .line 22
+    .line 23
+    return-void
+
+    .line 24
+    :cond_1
+    iget-object v3, p0, LI1/D1$b;->d:Ljava/util/List;
+
+    .line 25
+    .line 26
+    invoke-interface {v3}, Ljava/util/List;->isEmpty()Z
+
+    .line 27
+    .line 28
+    .line 29
+    move-result v3
+
+    .line 30
+    if-nez v3, :cond_2
+
+    .line 31
+    .line 32
+    iget-object v3, p0, LI1/D1$b;->d:Ljava/util/List;
+
+    .line 33
+    .line 34
+    invoke-interface {v3}, Ljava/util/List;->size()I
+
+    .line 35
+    .line 36
+    .line 37
+    move-result v4
+
+    .line 38
+    sub-int/2addr v4, v2
+
+    .line 39
+    invoke-interface {v3, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 40
+    .line 41
+    .line 42
+    move-result-object v3
+
+    .line 43
+    check-cast v3, [J
+
+    .line 44
+    .line 45
+    aget-wide v7, v3, v2
+
+    .line 46
+    .line 47
+    cmp-long v3, v7, p3
+
+    .line 48
+    .line 49
+    if-eqz v3, :cond_2
+
+    .line 50
+    .line 51
+    iget-object v3, p0, LI1/D1$b;->d:Ljava/util/List;
+
+    .line 52
+    .line 53
+    new-array v4, v1, [J
+
+    .line 54
+    .line 55
+    aput-wide p1, v4, v0
+
+    .line 56
+    .line 57
+    aput-wide v7, v4, v2
+
+    .line 58
+    .line 59
+    invoke-interface {v3, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 60
+    .line 61
+    .line 62
+    :cond_2
+    cmp-long v3, p3, v5
+
+    .line 63
+    .line 64
+    if-eqz v3, :cond_3
+
+    .line 65
+    .line 66
+    iget-object v3, p0, LI1/D1$b;->d:Ljava/util/List;
+
+    .line 67
+    .line 68
+    new-array v1, v1, [J
+
+    .line 69
+    .line 70
+    aput-wide p1, v1, v0
+
+    .line 71
+    .line 72
+    aput-wide p3, v1, v2
+
+    .line 73
+    .line 74
+    invoke-interface {v3, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 75
+    .line 76
+    .line 77
+    goto :goto_0
+
+    .line 78
+    :cond_3
+    iget-object p3, p0, LI1/D1$b;->d:Ljava/util/List;
+
+    .line 79
+    .line 80
+    invoke-interface {p3}, Ljava/util/List;->isEmpty()Z
+
+    .line 81
+    .line 82
+    .line 83
+    move-result p3
+
+    .line 84
+    if-nez p3, :cond_4
+
+    .line 85
+    .line 86
+    iget-object p3, p0, LI1/D1$b;->d:Ljava/util/List;
+
+    .line 87
+    .line 88
+    invoke-virtual {p0, p1, p2}, LI1/D1$b;->b(J)[J
+
+    .line 89
+    .line 90
+    .line 91
+    move-result-object p1
+
+    .line 92
+    invoke-interface {p3, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 93
+    .line 94
+    .line 95
+    :cond_4
+    :goto_0
+    return-void
+.end method
+
+.method public final l(LI1/b$b;Ly1/x;)V
+    .locals 6
+    .param p2    # Ly1/x;
+        .annotation build Lj/Q;
+        .end annotation
+    .end param
+
+    .line 1
+    iget-object v0, p0, LI1/D1$b;->P:Ly1/x;
+
+    .line 2
+    .line 3
+    invoke-static {v0, p2}, LB1/i0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    return-void
+
+    .line 10
+    :cond_0
+    iget-wide v0, p1, LI1/b$b;->a:J
+
+    .line 11
+    .line 12
+    invoke-virtual {p0, v0, v1}, LI1/D1$b;->h(J)V
+
+    .line 13
+    .line 14
+    .line 15
+    if-eqz p2, :cond_2
+
+    .line 16
+    .line 17
+    iget v0, p0, LI1/D1$b;->s:I
+
+    .line 18
+    .line 19
+    const/4 v1, -0x1
+
+    .line 20
+    if-ne v0, v1, :cond_1
+
+    .line 21
+    .line 22
+    iget v0, p2, Ly1/x;->u:I
+
+    .line 23
+    .line 24
+    if-eq v0, v1, :cond_1
+
+    .line 25
+    .line 26
+    iput v0, p0, LI1/D1$b;->s:I
+
+    .line 27
+    .line 28
+    :cond_1
+    iget-wide v2, p0, LI1/D1$b;->t:J
+
+    .line 29
+    .line 30
+    const-wide/16 v4, -0x1
+
+    .line 31
+    .line 32
+    cmp-long v0, v2, v4
+
+    .line 33
+    .line 34
+    if-nez v0, :cond_2
+
+    .line 35
+    .line 36
+    iget v0, p2, Ly1/x;->i:I
+
+    .line 37
+    .line 38
+    if-eq v0, v1, :cond_2
+
+    .line 39
+    .line 40
+    int-to-long v0, v0
+
+    .line 41
+    iput-wide v0, p0, LI1/D1$b;->t:J
+
+    .line 42
+    .line 43
+    :cond_2
+    iput-object p2, p0, LI1/D1$b;->P:Ly1/x;
+
+    .line 44
+    .line 45
+    iget-boolean v0, p0, LI1/D1$b;->a:Z
+
+    .line 46
+    .line 47
+    if-eqz v0, :cond_3
+
+    .line 48
+    .line 49
+    iget-object v0, p0, LI1/D1$b;->e:Ljava/util/List;
+
+    .line 50
+    .line 51
+    new-instance v1, LI1/C1$b;
+
+    .line 52
+    .line 53
+    invoke-direct {v1, p1, p2}, LI1/C1$b;-><init>(LI1/b$b;Ly1/x;)V
+
+    .line 54
+    .line 55
+    .line 56
+    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 57
+    .line 58
+    .line 59
+    :cond_3
+    return-void
+.end method
+
+.method public m(Ly1/U;LI1/b$b;ZJZIZZLy1/S;Ljava/lang/Exception;JJLy1/x;Ly1/x;Ly1/I1;)V
+    .locals 15
+    .param p10    # Ly1/S;
+        .annotation build Lj/Q;
+        .end annotation
+    .end param
+    .param p11    # Ljava/lang/Exception;
+        .annotation build Lj/Q;
+        .end annotation
+    .end param
+    .param p16    # Ly1/x;
+        .annotation build Lj/Q;
+        .end annotation
+    .end param
+    .param p17    # Ly1/x;
+        .annotation build Lj/Q;
+        .end annotation
+    .end param
+    .param p18    # Ly1/I1;
+        .annotation build Lj/Q;
+        .end annotation
+    .end param
+
+    move-object v0, p0
+
+    move-object/from16 v1, p2
+
+    move-wide/from16 v2, p4
+
+    move-object/from16 v4, p10
+
+    move-object/from16 v5, p11
+
+    move-object/from16 v6, p16
+
+    move-object/from16 v7, p17
+
+    move-object/from16 v8, p18
+
+    const-wide v9, -0x7fffffffffffffffL    # -4.9E-324
+
+    cmp-long v11, v2, v9
+
+    const/4 v12, 0x1
+
+    if-eqz v11, :cond_0
+
+    .line 1
+    iget-wide v13, v1, LI1/b$b;->a:J
+
+    invoke-virtual {p0, v13, v14, v2, v3}, LI1/D1$b;->k(JJ)V
+
+    .line 2
+    iput-boolean v12, v0, LI1/D1$b;->J:Z
+
+    .line 3
+    :cond_0
+    invoke-interface/range {p1 .. p1}, Ly1/U;->c()I
+
+    move-result v2
+
+    const/4 v3, 0x2
+
+    const/4 v11, 0x0
+
+    if-eq v2, v3, :cond_1
+
+    .line 4
+    iput-boolean v11, v0, LI1/D1$b;->J:Z
+
+    .line 5
+    :cond_1
+    invoke-interface/range {p1 .. p1}, Ly1/U;->c()I
+
+    move-result v2
+
+    if-eq v2, v12, :cond_2
+
+    const/4 v13, 0x4
+
+    if-eq v2, v13, :cond_2
+
+    if-eqz p6, :cond_3
+
+    .line 6
+    :cond_2
+    iput-boolean v11, v0, LI1/D1$b;->L:Z
+
+    :cond_3
+    if-eqz v4, :cond_4
+
+    .line 7
+    iput-boolean v12, v0, LI1/D1$b;->M:Z
+
+    .line 8
+    iget v2, v0, LI1/D1$b;->F:I
+
+    add-int/2addr v2, v12
+
+    iput v2, v0, LI1/D1$b;->F:I
+
+    .line 9
+    iget-boolean v2, v0, LI1/D1$b;->a:Z
+
+    if-eqz v2, :cond_5
+
+    .line 10
+    iget-object v2, v0, LI1/D1$b;->g:Ljava/util/List;
+
+    new-instance v11, LI1/C1$a;
+
+    invoke-direct {v11, v1, v4}, LI1/C1$a;-><init>(LI1/b$b;Ljava/lang/Exception;)V
+
+    invoke-interface {v2, v11}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    goto :goto_0
+
+    .line 11
+    :cond_4
+    invoke-interface/range {p1 .. p1}, Ly1/U;->j()Ly1/S;
+
+    move-result-object v2
+
+    if-nez v2, :cond_5
+
+    .line 12
+    iput-boolean v11, v0, LI1/D1$b;->M:Z
+
+    .line 13
+    :cond_5
+    :goto_0
+    iget-boolean v2, v0, LI1/D1$b;->K:Z
+
+    if-eqz v2, :cond_7
+
+    iget-boolean v2, v0, LI1/D1$b;->L:Z
+
+    if-nez v2, :cond_7
+
+    .line 14
+    invoke-interface/range {p1 .. p1}, Ly1/U;->B1()Ly1/E1;
+
+    move-result-object v2
+
+    .line 15
+    invoke-virtual {v2, v3}, Ly1/E1;->e(I)Z
+
+    move-result v3
+
+    const/4 v4, 0x0
+
+    if-nez v3, :cond_6
+
+    .line 16
+    invoke-virtual {p0, v1, v4}, LI1/D1$b;->l(LI1/b$b;Ly1/x;)V
+
+    .line 17
+    :cond_6
+    invoke-virtual {v2, v12}, Ly1/E1;->e(I)Z
+
+    move-result v2
+
+    if-nez v2, :cond_7
+
+    .line 18
+    invoke-virtual {p0, v1, v4}, LI1/D1$b;->i(LI1/b$b;Ly1/x;)V
+
+    :cond_7
+    if-eqz v6, :cond_8
+
+    .line 19
+    invoke-virtual {p0, v1, v6}, LI1/D1$b;->l(LI1/b$b;Ly1/x;)V
+
+    :cond_8
+    if-eqz v7, :cond_9
+
+    .line 20
+    invoke-virtual {p0, v1, v7}, LI1/D1$b;->i(LI1/b$b;Ly1/x;)V
+
+    .line 21
+    :cond_9
+    iget-object v2, v0, LI1/D1$b;->P:Ly1/x;
+
+    if-eqz v2, :cond_a
+
+    iget v3, v2, Ly1/x;->u:I
+
+    const/4 v4, -0x1
+
+    if-ne v3, v4, :cond_a
+
+    if-eqz v8, :cond_a
+
+    .line 22
+    invoke-virtual {v2}, Ly1/x;->a()Ly1/x$b;
+
+    move-result-object v2
+
+    iget v3, v8, Ly1/I1;->a:I
+
+    .line 23
+    invoke-virtual {v2, v3}, Ly1/x$b;->v0(I)Ly1/x$b;
+
+    move-result-object v2
+
+    iget v3, v8, Ly1/I1;->b:I
+
+    .line 24
+    invoke-virtual {v2, v3}, Ly1/x$b;->Y(I)Ly1/x$b;
+
+    move-result-object v2
+
+    .line 25
+    invoke-virtual {v2}, Ly1/x$b;->K()Ly1/x;
+
+    move-result-object v2
+
+    .line 26
+    invoke-virtual {p0, v1, v2}, LI1/D1$b;->l(LI1/b$b;Ly1/x;)V
+
+    :cond_a
+    if-eqz p9, :cond_b
+
+    .line 27
+    iput-boolean v12, v0, LI1/D1$b;->N:Z
+
+    :cond_b
+    if-eqz p8, :cond_c
+
+    .line 28
+    iget-wide v2, v0, LI1/D1$b;->E:J
+
+    const-wide/16 v6, 0x1
+
+    add-long/2addr v2, v6
+
+    iput-wide v2, v0, LI1/D1$b;->E:J
+
+    .line 29
+    :cond_c
+    iget-wide v2, v0, LI1/D1$b;->D:J
+
+    move/from16 v4, p7
+
+    int-to-long v6, v4
+
+    add-long/2addr v2, v6
+
+    iput-wide v2, v0, LI1/D1$b;->D:J
+
+    .line 30
+    iget-wide v2, v0, LI1/D1$b;->B:J
+
+    add-long v2, v2, p12
+
+    iput-wide v2, v0, LI1/D1$b;->B:J
+
+    .line 31
+    iget-wide v2, v0, LI1/D1$b;->C:J
+
+    add-long v2, v2, p14
+
+    iput-wide v2, v0, LI1/D1$b;->C:J
+
+    if-eqz v5, :cond_d
+
+    .line 32
+    iget v2, v0, LI1/D1$b;->G:I
+
+    add-int/2addr v2, v12
+
+    iput v2, v0, LI1/D1$b;->G:I
+
+    .line 33
+    iget-boolean v2, v0, LI1/D1$b;->a:Z
+
+    if-eqz v2, :cond_d
+
+    .line 34
+    iget-object v2, v0, LI1/D1$b;->h:Ljava/util/List;
+
+    new-instance v3, LI1/C1$a;
+
+    invoke-direct {v3, v1, v5}, LI1/C1$a;-><init>(LI1/b$b;Ljava/lang/Exception;)V
+
+    invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 35
+    :cond_d
+    invoke-virtual/range {p0 .. p1}, LI1/D1$b;->q(Ly1/U;)I
+
+    move-result v2
+
+    .line 36
+    invoke-interface/range {p1 .. p1}, Ly1/U;->p()Ly1/T;
+
+    move-result-object v3
+
+    iget v3, v3, Ly1/T;->a:F
+
+    .line 37
+    iget v4, v0, LI1/D1$b;->H:I
+
+    if-ne v4, v2, :cond_e
+
+    iget v4, v0, LI1/D1$b;->T:F
+
+    cmpl-float v4, v4, v3
+
+    if-eqz v4, :cond_10
+
+    .line 38
+    :cond_e
+    iget-wide v4, v1, LI1/b$b;->a:J
+
+    if-eqz p3, :cond_f
+
+    .line 39
+    iget-wide v9, v1, LI1/b$b;->e:J
+
+    .line 40
+    :cond_f
+    invoke-virtual {p0, v4, v5, v9, v10}, LI1/D1$b;->k(JJ)V
+
+    .line 41
+    iget-wide v4, v1, LI1/b$b;->a:J
+
+    invoke-virtual {p0, v4, v5}, LI1/D1$b;->h(J)V
+
+    .line 42
+    iget-wide v4, v1, LI1/b$b;->a:J
+
+    invoke-virtual {p0, v4, v5}, LI1/D1$b;->g(J)V
+
+    .line 43
+    :cond_10
+    iput v3, v0, LI1/D1$b;->T:F
+
+    .line 44
+    iget v3, v0, LI1/D1$b;->H:I
+
+    if-eq v3, v2, :cond_11
+
+    .line 45
+    invoke-virtual {p0, v2, v1}, LI1/D1$b;->r(ILI1/b$b;)V
+
+    :cond_11
+    return-void
+.end method
+
+.method public n(LI1/b$b;ZJ)V
+    .locals 4
+
+    .line 1
+    iget v0, p0, LI1/D1$b;->H:I
+
+    .line 2
+    .line 3
+    const/16 v1, 0xb
+
+    .line 4
+    .line 5
+    if-eq v0, v1, :cond_1
+
+    .line 6
+    .line 7
+    if-eqz p2, :cond_0
+
+    .line 8
+    .line 9
+    goto :goto_0
+
+    .line 10
+    :cond_0
+    const/16 v1, 0xf
+
+    .line 11
+    .line 12
+    :cond_1
+    :goto_0
+    iget-wide v2, p1, LI1/b$b;->a:J
+
+    .line 13
+    .line 14
+    invoke-virtual {p0, v2, v3, p3, p4}, LI1/D1$b;->k(JJ)V
+
+    .line 15
+    .line 16
+    .line 17
+    iget-wide p2, p1, LI1/b$b;->a:J
+
+    .line 18
+    .line 19
+    invoke-virtual {p0, p2, p3}, LI1/D1$b;->h(J)V
+
+    .line 20
+    .line 21
+    .line 22
+    iget-wide p2, p1, LI1/b$b;->a:J
+
+    .line 23
+    .line 24
+    invoke-virtual {p0, p2, p3}, LI1/D1$b;->g(J)V
+
+    .line 25
+    .line 26
+    .line 27
+    invoke-virtual {p0, v1, p1}, LI1/D1$b;->r(ILI1/b$b;)V
+
+    .line 28
+    .line 29
+    .line 30
+    return-void
+.end method
+
+.method public o()V
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    iput-boolean v0, p0, LI1/D1$b;->K:Z
+
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public p()V
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    iput-boolean v0, p0, LI1/D1$b;->L:Z
+
+    .line 3
+    .line 4
+    const/4 v0, 0x0
+
+    .line 5
+    iput-boolean v0, p0, LI1/D1$b;->J:Z
+
+    .line 6
+    .line 7
+    return-void
+.end method
+
+.method public final q(Ly1/U;)I
+    .locals 5
+
+    .line 1
+    invoke-interface {p1}, Ly1/U;->c()I
+
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
+
+    .line 5
+    iget-boolean v1, p0, LI1/D1$b;->J:Z
+
+    .line 6
+    .line 7
+    if-eqz v1, :cond_0
+
+    .line 8
+    .line 9
+    iget-boolean v1, p0, LI1/D1$b;->K:Z
+
+    .line 10
+    .line 11
+    if-eqz v1, :cond_0
+
+    .line 12
+    .line 13
+    const/4 p1, 0x5
+
+    .line 14
+    return p1
+
+    .line 15
+    :cond_0
+    iget-boolean v1, p0, LI1/D1$b;->M:Z
+
+    .line 16
+    .line 17
+    if-eqz v1, :cond_1
+
+    .line 18
+    .line 19
+    const/16 p1, 0xd
+
+    .line 20
+    .line 21
+    return p1
+
+    .line 22
+    :cond_1
+    iget-boolean v1, p0, LI1/D1$b;->K:Z
+
+    .line 23
+    .line 24
+    if-nez v1, :cond_2
+
+    .line 25
+    .line 26
+    iget-boolean p1, p0, LI1/D1$b;->N:Z
+
+    .line 27
+    .line 28
+    return p1
+
+    .line 29
+    :cond_2
+    iget-boolean v1, p0, LI1/D1$b;->L:Z
+
+    .line 30
+    .line 31
+    const/16 v2, 0xe
+
+    .line 32
+    .line 33
+    if-eqz v1, :cond_3
+
+    .line 34
+    .line 35
+    return v2
+
+    .line 36
+    :cond_3
+    const/4 v1, 0x4
+
+    .line 37
+    if-ne v0, v1, :cond_4
+
+    .line 38
+    .line 39
+    const/16 p1, 0xb
+
+    .line 40
+    .line 41
+    return p1
+
+    .line 42
+    :cond_4
+    const/4 v3, 0x1
+
+    .line 43
+    const/4 v4, 0x2
+
+    .line 44
+    if-ne v0, v4, :cond_9
+
+    .line 45
+    .line 46
+    iget v0, p0, LI1/D1$b;->H:I
+
+    .line 47
+    .line 48
+    if-eqz v0, :cond_8
+
+    .line 49
+    .line 50
+    if-eq v0, v3, :cond_8
+
+    .line 51
+    .line 52
+    if-eq v0, v4, :cond_8
+
+    .line 53
+    .line 54
+    if-ne v0, v2, :cond_5
+
+    .line 55
+    .line 56
+    goto :goto_1
+
+    .line 57
+    :cond_5
+    invoke-interface {p1}, Ly1/U;->j0()Z
+
+    .line 58
+    .line 59
+    .line 60
+    move-result v0
+
+    .line 61
+    if-nez v0, :cond_6
+
+    .line 62
+    .line 63
+    const/4 p1, 0x7
+
+    .line 64
+    return p1
+
+    .line 65
+    :cond_6
+    invoke-interface {p1}, Ly1/U;->d2()I
+
+    .line 66
+    .line 67
+    .line 68
+    move-result p1
+
+    .line 69
+    if-eqz p1, :cond_7
+
+    .line 70
+    .line 71
+    const/16 p1, 0xa
+
+    .line 72
+    .line 73
+    goto :goto_0
+
+    .line 74
+    :cond_7
+    const/4 p1, 0x6
+
+    .line 75
+    :goto_0
+    return p1
+
+    .line 76
+    :cond_8
+    :goto_1
+    return v4
+
+    .line 77
+    :cond_9
+    const/4 v2, 0x3
+
+    .line 78
+    if-ne v0, v2, :cond_c
+
+    .line 79
+    .line 80
+    invoke-interface {p1}, Ly1/U;->j0()Z
+
+    .line 81
+    .line 82
+    .line 83
+    move-result v0
+
+    .line 84
+    if-nez v0, :cond_a
+
+    .line 85
+    .line 86
+    return v1
+
+    .line 87
+    :cond_a
+    invoke-interface {p1}, Ly1/U;->d2()I
+
+    .line 88
+    .line 89
+    .line 90
+    move-result p1
+
+    .line 91
+    if-eqz p1, :cond_b
+
+    .line 92
+    .line 93
+    const/16 v2, 0x9
+
+    .line 94
+    .line 95
+    :cond_b
+    return v2
+
+    .line 96
+    :cond_c
+    if-ne v0, v3, :cond_d
+
+    .line 97
+    .line 98
+    iget p1, p0, LI1/D1$b;->H:I
+
+    .line 99
+    .line 100
+    if-eqz p1, :cond_d
+
+    .line 101
+    .line 102
+    const/16 p1, 0xc
+
+    .line 103
+    .line 104
+    return p1
+
+    .line 105
+    :cond_d
+    iget p1, p0, LI1/D1$b;->H:I
+
+    .line 106
+    .line 107
+    return p1
+.end method
+
+.method public final r(ILI1/b$b;)V
+    .locals 10
+
+    .line 1
+    iget-wide v0, p2, LI1/b$b;->a:J
+
+    .line 2
+    .line 3
+    iget-wide v2, p0, LI1/D1$b;->I:J
+
+    .line 4
+    .line 5
+    cmp-long v0, v0, v2
+
+    .line 6
+    .line 7
+    const/4 v1, 0x0
+
+    .line 8
+    const/4 v2, 0x1
+
+    .line 9
+    if-ltz v0, :cond_0
+
+    .line 10
+    .line 11
+    move v0, v2
+
+    .line 12
+    goto :goto_0
+
+    .line 13
+    :cond_0
+    move v0, v1
+
+    .line 14
+    :goto_0
+    invoke-static {v0}, LB1/a;->a(Z)V
+
+    .line 15
+    .line 16
+    .line 17
+    iget-wide v3, p2, LI1/b$b;->a:J
+
+    .line 18
+    .line 19
+    iget-wide v5, p0, LI1/D1$b;->I:J
+
+    .line 20
+    .line 21
+    sub-long v5, v3, v5
+
+    .line 22
+    .line 23
+    iget-object v0, p0, LI1/D1$b;->b:[J
+
+    .line 24
+    .line 25
+    iget v7, p0, LI1/D1$b;->H:I
+
+    .line 26
+    .line 27
+    aget-wide v8, v0, v7
+
+    .line 28
+    .line 29
+    add-long/2addr v8, v5
+
+    .line 30
+    aput-wide v8, v0, v7
+
+    .line 31
+    .line 32
+    iget-wide v5, p0, LI1/D1$b;->j:J
+
+    .line 33
+    .line 34
+    const-wide v8, -0x7fffffffffffffffL    # -4.9E-324
+
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    cmp-long v0, v5, v8
+
+    .line 40
+    .line 41
+    if-nez v0, :cond_1
+
+    .line 42
+    .line 43
+    iput-wide v3, p0, LI1/D1$b;->j:J
+
+    .line 44
+    .line 45
+    :cond_1
+    iget-boolean v0, p0, LI1/D1$b;->m:Z
+
+    .line 46
+    .line 47
+    invoke-static {v7, p1}, LI1/D1$b;->c(II)Z
+
+    .line 48
+    .line 49
+    .line 50
+    move-result v3
+
+    .line 51
+    or-int/2addr v0, v3
+
+    .line 52
+    iput-boolean v0, p0, LI1/D1$b;->m:Z
+
+    .line 53
+    .line 54
+    iget-boolean v0, p0, LI1/D1$b;->k:Z
+
+    .line 55
+    .line 56
+    invoke-static {p1}, LI1/D1$b;->e(I)Z
+
+    .line 57
+    .line 58
+    .line 59
+    move-result v3
+
+    .line 60
+    or-int/2addr v0, v3
+
+    .line 61
+    iput-boolean v0, p0, LI1/D1$b;->k:Z
+
+    .line 62
+    .line 63
+    iget-boolean v0, p0, LI1/D1$b;->l:Z
+
+    .line 64
+    .line 65
+    const/16 v3, 0xb
+
+    .line 66
+    .line 67
+    if-ne p1, v3, :cond_2
+
+    .line 68
+    .line 69
+    move v1, v2
+
+    .line 70
+    :cond_2
+    or-int/2addr v0, v1
+
+    .line 71
+    iput-boolean v0, p0, LI1/D1$b;->l:Z
+
+    .line 72
+    .line 73
+    iget v0, p0, LI1/D1$b;->H:I
+
+    .line 74
+    .line 75
+    invoke-static {v0}, LI1/D1$b;->d(I)Z
+
+    .line 76
+    .line 77
+    .line 78
+    move-result v0
+
+    .line 79
+    if-nez v0, :cond_3
+
+    .line 80
+    .line 81
+    invoke-static {p1}, LI1/D1$b;->d(I)Z
+
+    .line 82
+    .line 83
+    .line 84
+    move-result v0
+
+    .line 85
+    if-eqz v0, :cond_3
+
+    .line 86
+    .line 87
+    iget v0, p0, LI1/D1$b;->n:I
+
+    .line 88
+    .line 89
+    add-int/2addr v0, v2
+
+    .line 90
+    iput v0, p0, LI1/D1$b;->n:I
+
+    .line 91
+    .line 92
+    :cond_3
+    const/4 v0, 0x5
+
+    .line 93
+    if-ne p1, v0, :cond_4
+
+    .line 94
+    .line 95
+    iget v0, p0, LI1/D1$b;->p:I
+
+    .line 96
+    .line 97
+    add-int/2addr v0, v2
+
+    .line 98
+    iput v0, p0, LI1/D1$b;->p:I
+
+    .line 99
+    .line 100
+    :cond_4
+    iget v0, p0, LI1/D1$b;->H:I
+
+    .line 101
+    .line 102
+    invoke-static {v0}, LI1/D1$b;->f(I)Z
+
+    .line 103
+    .line 104
+    .line 105
+    move-result v0
+
+    .line 106
+    if-nez v0, :cond_5
+
+    .line 107
+    .line 108
+    invoke-static {p1}, LI1/D1$b;->f(I)Z
+
+    .line 109
+    .line 110
+    .line 111
+    move-result v0
+
+    .line 112
+    if-eqz v0, :cond_5
+
+    .line 113
+    .line 114
+    iget v0, p0, LI1/D1$b;->q:I
+
+    .line 115
+    .line 116
+    add-int/2addr v0, v2
+
+    .line 117
+    iput v0, p0, LI1/D1$b;->q:I
+
+    .line 118
+    .line 119
+    iget-wide v0, p2, LI1/b$b;->a:J
+
+    .line 120
+    .line 121
+    iput-wide v0, p0, LI1/D1$b;->O:J
+
+    .line 122
+    .line 123
+    :cond_5
+    iget v0, p0, LI1/D1$b;->H:I
+
+    .line 124
+    .line 125
+    invoke-static {v0}, LI1/D1$b;->f(I)Z
+
+    .line 126
+    .line 127
+    .line 128
+    move-result v0
+
+    .line 129
+    if-eqz v0, :cond_6
+
+    .line 130
+    .line 131
+    iget v0, p0, LI1/D1$b;->H:I
+
+    .line 132
+    .line 133
+    const/4 v1, 0x7
+
+    .line 134
+    if-eq v0, v1, :cond_6
+
+    .line 135
+    .line 136
+    if-ne p1, v1, :cond_6
+
+    .line 137
+    .line 138
+    iget v0, p0, LI1/D1$b;->o:I
+
+    .line 139
+    .line 140
+    add-int/2addr v0, v2
+
+    .line 141
+    iput v0, p0, LI1/D1$b;->o:I
+
+    .line 142
+    .line 143
+    :cond_6
+    iget-wide v0, p2, LI1/b$b;->a:J
+
+    .line 144
+    .line 145
+    invoke-virtual {p0, v0, v1}, LI1/D1$b;->j(J)V
+
+    .line 146
+    .line 147
+    .line 148
+    iput p1, p0, LI1/D1$b;->H:I
+
+    .line 149
+    .line 150
+    iget-wide v0, p2, LI1/b$b;->a:J
+
+    .line 151
+    .line 152
+    iput-wide v0, p0, LI1/D1$b;->I:J
+
+    .line 153
+    .line 154
+    iget-boolean v0, p0, LI1/D1$b;->a:Z
+
+    .line 155
+    .line 156
+    if-eqz v0, :cond_7
+
+    .line 157
+    .line 158
+    iget-object v0, p0, LI1/D1$b;->c:Ljava/util/List;
+
+    .line 159
+    .line 160
+    new-instance v1, LI1/C1$c;
+
+    .line 161
+    .line 162
+    invoke-direct {v1, p2, p1}, LI1/C1$c;-><init>(LI1/b$b;I)V
+
+    .line 163
+    .line 164
+    .line 165
+    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 166
+    .line 167
+    .line 168
+    :cond_7
+    return-void
+.end method
