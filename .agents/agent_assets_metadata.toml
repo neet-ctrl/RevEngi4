@@ -24,3 +24,9 @@ id = "Le_W8cdYgZaJUnPZO_rHB"
 uri = "file://output/sigma_patched.tar.gz"
 type = "unspecified"
 title = "sigma_patched_signed.apk (v3 - all paths covered)"
+
+[[outputs]]
+id = "uOdEAJb81FIluF-M6fX5g"
+uri = "file://BUILD_GUIDE.md"
+type = "text"
+title = "Build & Sign Guide"
