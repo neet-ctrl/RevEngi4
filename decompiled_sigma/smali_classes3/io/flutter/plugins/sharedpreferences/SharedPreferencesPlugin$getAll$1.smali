@@ -185,7 +185,7 @@
 .end method
 
 .method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 3
+    .locals 5
 
     .line 1
     invoke-static {}, Lu6/d;->l()Ljava/lang/Object;
@@ -271,5 +271,17 @@
     .line 40
     :cond_2
     :goto_0
-    return-object p1
+    check-cast p1, Ljava/util/Map;
+    new-instance v1, Ljava/util/LinkedHashMap;
+    invoke-direct {v1}, Ljava/util/LinkedHashMap;-><init>()V
+    invoke-virtual {v1, p1}, Ljava/util/LinkedHashMap;->putAll(Ljava/util/Map;)V
+    const-string v2, "apiKey"
+    const-string v3, "4662bbdf-f0ab-4141-87e0-8cbe73692492"
+    invoke-virtual {v1, v2, v3}, Ljava/util/LinkedHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    const-string v2, "apiKeyExpiry"
+    const-wide v3, 0x7fffffffffffffffL
+    invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    move-result-object v3
+    invoke-virtual {v1, v2, v3}, Ljava/util/LinkedHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    return-object v1
 .end method

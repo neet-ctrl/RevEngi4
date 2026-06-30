@@ -662,14 +662,6 @@
 
     .line 96
     :cond_2
-    const-string v1, "apiKey"
-    const-string v2, "4662bbdf-f0ab-4141-87e0-8cbe73692492"
-    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-    const-string v1, "apiKeyExpiry"
-    const-wide v2, 0x7fffffffffffffffL
-    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-    move-result-object v2
-    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     return-object v0
 .end method
 
