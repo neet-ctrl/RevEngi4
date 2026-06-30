@@ -18,3 +18,9 @@ id = "NQUuylZOoa1D_IzBzPiUY"
 uri = "file://output/castle_final.tar.gz"
 type = "unspecified"
 title = "castle_final.tar.gz — Patch 15 (full video unlock)"
+
+[[outputs]]
+id = "Le_W8cdYgZaJUnPZO_rHB"
+uri = "file://output/sigma_patched.tar.gz"
+type = "unspecified"
+title = "sigma_patched_signed.apk (v3 - all paths covered)"

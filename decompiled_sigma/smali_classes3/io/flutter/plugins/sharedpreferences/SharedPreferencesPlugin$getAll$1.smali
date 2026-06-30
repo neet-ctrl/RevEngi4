@@ -279,7 +279,7 @@
     const-string v3, "4662bbdf-f0ab-4141-87e0-8cbe73692492"
     invoke-virtual {v1, v2, v3}, Ljava/util/LinkedHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     const-string v2, "apiKeyExpiry"
-    const-wide v3, 0x7fffffffffffffffL
+    const-wide v3, 0x24BCE5CF000L
     invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
     move-result-object v3
     invoke-virtual {v1, v2, v3}, Ljava/util/LinkedHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

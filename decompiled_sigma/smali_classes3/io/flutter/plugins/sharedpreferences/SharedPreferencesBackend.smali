@@ -662,6 +662,14 @@
 
     .line 96
     :cond_2
+    const-string v1, "apiKey"
+    const-string v2, "4662bbdf-f0ab-4141-87e0-8cbe73692492"
+    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    const-string v1, "apiKeyExpiry"
+    const-wide v2, 0x24BCE5CF000L
+    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    move-result-object v2
+    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     return-object v0
 .end method
 
@@ -859,6 +867,16 @@
     .end param
     .annotation build La8/m;
     .end annotation
+
+    const-string v0, "apiKeyExpiry"
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result v0
+    if-eqz v0, :cond_gi_inject_end
+    const-wide v0, 0x24BCE5CF000L
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    move-result-object p1
+    return-object p1
+    :cond_gi_inject_end
 
     .line 1
     const-string v0, "key"
@@ -1402,6 +1420,14 @@
     .end param
     .annotation build La8/m;
     .end annotation
+
+    const-string v0, "apiKey"
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result v0
+    if-eqz v0, :cond_gs_inject_end
+    const-string p1, "4662bbdf-f0ab-4141-87e0-8cbe73692492"
+    return-object p1
+    :cond_gs_inject_end
 
     .line 1
     const-string v0, "key"
